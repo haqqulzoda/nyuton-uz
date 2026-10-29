@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.nyuton.uz" }],
+      "destination": "https://nyuton.uz/:path*",
+      "permanent": true
+    }
+  ]
+}
