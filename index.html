@@ -351,6 +351,42 @@ a.sec-card { text-decoration: none; }
 .sec-stats { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; font-weight: 600; }
 .sec-go { margin-top: auto; font-weight: 600; color: var(--accent); }
 @media (max-width: 640px) { .sec-card.live { grid-column: auto; } .crumb { margin-right: 0; width: 100%; } }
+
+/* ---- Kurs xaritasi: har bir modul o'z rangida ---- */
+.module.m0 { --mc: #2348d0; } .module.m1 { --mc: #0f9b8e; } .module.m2 { --mc: #7a4ad8; } .module.m3 { --mc: #e06a1b; }
+.module.m4 { --mc: #d23f78; } .module.m5 { --mc: #2f9a3a; } .module.m6 { --mc: #c08a00; }
+:root[data-theme="dark"] .module.m0 { --mc: #7f9cff; } :root[data-theme="dark"] .module.m1 { --mc: #3fd3c2; } :root[data-theme="dark"] .module.m2 { --mc: #b393ff; }
+:root[data-theme="dark"] .module.m3 { --mc: #ff9a55; } :root[data-theme="dark"] .module.m4 { --mc: #ff7fae; } :root[data-theme="dark"] .module.m5 { --mc: #6fd77a; } :root[data-theme="dark"] .module.m6 { --mc: #f0c24a; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .module.m0 { --mc: #7f9cff; } :root:not([data-theme="light"]) .module.m1 { --mc: #3fd3c2; } :root:not([data-theme="light"]) .module.m2 { --mc: #b393ff; }
+  :root:not([data-theme="light"]) .module.m3 { --mc: #ff9a55; } :root:not([data-theme="light"]) .module.m4 { --mc: #ff7fae; } :root:not([data-theme="light"]) .module.m5 { --mc: #6fd77a; } :root:not([data-theme="light"]) .module.m6 { --mc: #f0c24a; }
+}
+.module[class*=" m"] {
+  position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 6px 18px 10px;
+  box-shadow: var(--shadow); overflow: hidden;
+  background-image: linear-gradient(135deg, color-mix(in srgb, var(--mc) 9%, transparent) 0%, transparent 42%);
+}
+.module[class*=" m"]::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: linear-gradient(180deg, var(--mc), color-mix(in srgb, var(--mc) 45%, transparent)); }
+.module[class*=" m"] .module-head { border-bottom: 2px solid color-mix(in srgb, var(--mc) 55%, transparent); align-items: center; padding: 12px 0 10px; }
+.module[class*=" m"] .module-code { background: var(--mc); color: #fff; padding: 3px 10px; border-radius: 99px; font-size: 12px; letter-spacing: .02em; }
+:root[data-theme="dark"] .module[class*=" m"] .module-code { color: #0b1020; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .module[class*=" m"] .module-code { color: #0b1020; } }
+.module[class*=" m"] .module-title { color: var(--mc); }
+.module[class*=" m"] .module-meta { background: color-mix(in srgb, var(--mc) 12%, transparent); color: var(--mc); padding: 3px 10px; border-radius: 99px; font-weight: 600; }
+.module[class*=" m"] .row { border-radius: 10px; border-bottom-color: color-mix(in srgb, var(--mc) 14%, var(--line)); }
+.module[class*=" m"] .row:hover { background: color-mix(in srgb, var(--mc) 9%, transparent); }
+.module[class*=" m"] .row:hover .row-title { color: var(--mc); }
+.module[class*=" m"] .row-num { display: inline-grid; place-items: center; min-width: 34px; height: 30px; padding: 0 6px; border-radius: 9px; background: color-mix(in srgb, var(--mc) 13%, transparent); color: var(--mc); font-weight: 600; justify-self: start; }
+.module[class*=" m"] .chip.lec { background: color-mix(in srgb, var(--mc) 14%, transparent); color: var(--mc); }
+
+/* qahramon bloki: rangli sarlavha va raqamlar */
+.hero h1 { background: linear-gradient(90deg, var(--accent) 0%, #7a4ad8 45%, var(--signal) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero-stats div:nth-child(1) b { color: #2348d0; } .hero-stats div:nth-child(2) b { color: #7a4ad8; } .hero-stats div:nth-child(3) b { color: #0f9b8e; }
+.hero-stats div:nth-child(4) b { color: #e06a1b; } .hero-stats div:nth-child(5) b { color: #d23f78; }
+:root[data-theme="dark"] .hero-stats b { filter: brightness(1.45); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .hero-stats b { filter: brightness(1.45); } }
+.hero-fig { border: 0; background: linear-gradient(135deg, #7ec8f2, #c7ecd0); padding: 6px; }
+.module[class*=" m"] .module-head { flex-wrap: wrap; row-gap: 6px; }
 </style>
 <header class="topbar" id="top"></header>
 <main class="page" id="page"></main>
@@ -577,10 +613,10 @@ window.MathJax = {
     g.restore();
   };
   /* qo'zg'almas tayanch: pastda bo'lsa — yashil maysa va tuproq; yuqorida yoki yonda — bo'yalgan yog'och */
-  D.hatch = function (g, x, y, w, h, color) {
+  D.hatch = function (g, x, y, w, h, color, kind) {
     const dk = APP.isDark();
     const tr = g.getTransform(), Hc = g.canvas.height / (tr.d || 1);
-    const isGround = y + h >= Hc - 24 && w > 3 * h;
+    const isGround = kind === "ground" || (kind !== "support" && y + h >= Hc - 24 && w > 3 * h);
     g.save(); g.beginPath(); g.rect(x, y, w, h); g.clip();
     if (isGround) {
       const soil = g.createLinearGradient(0, y, 0, y + h);
@@ -905,7 +941,7 @@ window.MathJax = {
     if (lx) tx(g, lx, x0 + w - 4, y0 + 18, { size: 12, color: C.muted, align: "right", fam: "mono" });
     if (ly) tx(g, ly, x0 + 8, y0 - h + 4, { size: 12, color: C.muted, fam: "mono" });
   };
-  const ground = (g, x, y, w, C) => { g.save(); g.strokeStyle = C.ink; g.lineWidth = 1.5; g.beginPath(); g.moveTo(x, y + .5); g.lineTo(x + w, y + .5); g.stroke(); APP.draw.hatch(g, x, y + 1, w, 10, C.muted); g.restore(); };
+  const ground = (g, x, y, w, C) => { g.save(); g.strokeStyle = C.ink; g.lineWidth = 1.5; g.beginPath(); g.moveTo(x, y + .5); g.lineTo(x + w, y + .5); g.stroke(); APP.draw.hatch(g, x, y + 1, w, 10, C.muted, "ground"); g.restore(); };
   const box = (g, x, y, w, h, C, fill) => { APP.draw.rrect(g, x, y, w, h, 5); g.fillStyle = fill || C.accentSoft; g.fill(); g.strokeStyle = C.ink; g.lineWidth = 1.4; g.stroke(); };
   const cyc = (t, p) => (t % p) / p;
 
@@ -11780,7 +11816,7 @@ window.SIMS["L15"] = function (ctx) {
     const fig = h("figure", { class: "hero-fig", style: "margin:0" });
     const cv = h("canvas", { "aria-label": T(S.pfFig) }); fig.appendChild(cv); fig.appendChild(h("figcaption", { text: T(S.pfFig) }));
     hero.appendChild(left); hero.appendChild(fig); m.appendChild(hero);
-    heroStop = runAnim(cv, "orbit");
+    heroStop = runAnim(cv, "orbit", true);
     m.appendChild(h("div", { class: "sec-head" }, h("h2", { text: T(S.pfSections) }), h("p", { text: T(S.pfSectionsP) })));
     const grid = h("div", { class: "sec-grid" });
     const mex = h("button", { class: "sec-card live", type: "button", onclick: () => go("kurs") },
@@ -11816,11 +11852,11 @@ window.SIMS["L15"] = function (ctx) {
     const fig = h("figure", { class: "hero-fig", style: "margin:0" });
     const cv = h("canvas", { "aria-label": T(S.heroCap) }); fig.appendChild(cv); fig.appendChild(h("figcaption", { text: T(S.heroCap) }));
     hero.appendChild(left); hero.appendChild(fig); m.appendChild(hero);
-    heroStop = runAnim(cv, "projectile");
+    heroStop = runAnim(cv, "projectile", true);
 
     m.appendChild(h("div", { class: "sec-head" }, h("h2", { text: T(S.mapH) }), h("p", { text: T(S.mapP) })));
-    MODULES.forEach((mod) => {
-      const sec = h("section", { class: "module" });
+    MODULES.forEach((mod, mi) => {
+      const sec = h("section", { class: "module m" + (mi % 7) });
       sec.appendChild(h("div", { class: "module-head" }, h("span", { class: "module-code", text: mod.id }), h("span", { class: "module-title", text: T(mod.title) }),
         h("span", { class: "module-meta", text: mod.lec.length + " " + T(S.lecs) + " · " + mod.lab.length + " " + T(S.labsN) })));
       const cols = h("div", { class: "cols2" });
@@ -11849,8 +11885,8 @@ window.SIMS["L15"] = function (ctx) {
 
   function pageLectures(m) {
     m.appendChild(h("div", { class: "sec-head" }, h("h2", { text: T(S.lecH) }), h("p", { text: T(S.lecP) })));
-    MODULES.forEach((mod) => {
-      const sec = h("section", { class: "module" });
+    MODULES.forEach((mod, mi) => {
+      const sec = h("section", { class: "module m" + (mi % 7) });
       sec.appendChild(h("div", { class: "module-head" }, h("span", { class: "module-code", text: mod.id }), h("span", { class: "module-title", text: T(mod.title) })));
       const ul = h("ul", { class: "rows" }); mod.lec.forEach((n) => ul.appendChild(h("li", null, lecRow(n)))); sec.appendChild(ul); m.appendChild(sec);
     });
@@ -11964,7 +12000,7 @@ window.SIMS["L15"] = function (ctx) {
   }
 
   /* ---------------- animatsiya ishga tushirish ---------------- */
-  function runAnim(cv, name) {
+  function runAnim(cv, name, sky) {
     const f = window.ANIMS && window.ANIMS[name];
     const W = 560, H = 420; let raf = 0, alive = true; const t0 = performance.now();
     const g = cv.getContext("2d");
@@ -11976,7 +12012,7 @@ window.SIMS["L15"] = function (ctx) {
       cv.style.aspectRatio = W + " / " + H;
       const sc = cv.width / W; g.setTransform(sc, 0, 0, sc, 0, 0);
       const C = APP.colors(); g.fillStyle = C.sunk; g.fillRect(0, 0, W, H);
-      APP.draw.grid(g, 0, 0, W, H, 20, C.grid);
+      if (sky) APP.draw.backdrop(g, W, H); else APP.draw.grid(g, 0, 0, W, H, 20, C.grid);
       if (f) { try { f(g, (now - t0) / 1000 + 0.6, C, T); } catch (e) { console.error(e); alive = false; } }
       if (!reduce) raf = requestAnimationFrame(frame);
     };
