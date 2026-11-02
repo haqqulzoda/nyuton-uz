@@ -494,6 +494,26 @@ a.sec-card { text-decoration: none; }
 .slide-photo { grid-template-columns: minmax(0, 1fr); max-width: 100%; }
 .slide-photo img { max-width: 100%; height: auto; }
 .pdots button { width: auto; }
+
+/* ==== Yagona uslub: hamma yozuvlar Times New Roman, kunduzgi rejimda bitta to'q ko'k rangda ==== */
+:root {
+  --f-display: "Times New Roman", Times, "Liberation Serif", serif;
+  --f-body: "Times New Roman", Times, "Liberation Serif", serif;
+  --f-mono: "Times New Roman", Times, "Liberation Serif", serif;
+  --text-blue: #0b2a6b;
+}
+html, body, button, input, select, textarea { font-family: var(--f-body); }
+body { font-size: 17px; }
+@media not (prefers-color-scheme: dark) {
+  html:not([data-theme="dark"]) body, html:not([data-theme="dark"]) body * { color: var(--text-blue) !important; -webkit-text-fill-color: var(--text-blue); }
+  html:not([data-theme="dark"]) .seg button[aria-pressed="true"], html:not([data-theme="dark"]) .pbtn.primary, html:not([data-theme="dark"]) .lbtn.primary,
+  html:not([data-theme="dark"]) .slide-count, html:not([data-theme="dark"]) .caption .caption-head span, html:not([data-theme="dark"]) .module[class*=" m"] .module-code {
+    background: #dbe6fb !important; border: 1px solid var(--text-blue) !important; }
+}
+html[data-theme="light"] body, html[data-theme="light"] body * { color: var(--text-blue) !important; -webkit-text-fill-color: var(--text-blue); }
+html[data-theme="light"] .seg button[aria-pressed="true"], html[data-theme="light"] .pbtn.primary, html[data-theme="light"] .lbtn.primary,
+html[data-theme="light"] .slide-count, html[data-theme="light"] .caption .caption-head span, html[data-theme="light"] .module[class*=" m"] .module-code {
+  background: #dbe6fb !important; border: 1px solid var(--text-blue) !important; }
 </style>
 <header class="topbar" id="top"></header>
 <main class="page" id="page"></main>
