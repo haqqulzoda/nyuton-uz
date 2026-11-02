@@ -514,6 +514,8 @@ html[data-theme="light"] body, html[data-theme="light"] body * { color: var(--te
 html[data-theme="light"] .seg button[aria-pressed="true"], html[data-theme="light"] .pbtn.primary, html[data-theme="light"] .lbtn.primary,
 html[data-theme="light"] .slide-count, html[data-theme="light"] .caption .caption-head span, html[data-theme="light"] .module[class*=" m"] .module-code {
   background: #dbe6fb !important; border: 1px solid var(--text-blue) !important; }
+.voice-note.warn { background: #fff6d6; border: 1px solid #e8c766; border-radius: 8px; padding: 6px 10px; font-size: 13.5px !important; }
+.voice-note .edge-link { font-weight: 700; text-decoration: underline; margin-left: 4px; }
 </style>
 <header class="topbar" id="top"></header>
 <main class="page" id="page"></main>
@@ -23435,7 +23437,8 @@ window.SIMS["L15"] = function (ctx) {
     narr: { uz: "Diktor", en: "Narrator" },
     theory: { uz: "Nazariy ma’lumot", en: "Theory notes" },
     slideOf: { uz: "slayd", en: "slide" },
-    noVoiceUz: { uz: "Qurilmangizda o‘zbek ovozi topilmadi: matn mavjud ovoz bilan o‘qiladi, subtitr har doim ko‘rinadi.", en: "" },
+    noVoiceUz: { uz: "Bu brauzerda o‘zbek ovozi yo‘q, shuning uchun matn boshqa tildagi ovoz bilan o‘qilyapti. To‘g‘ri o‘zbekcha o‘qish uchun saytni Microsoft Edge brauzerida oching — unda tabiiy o‘zbek ovozlari (Madina, Sardor) bor.", en: "" },
+    openEdge: { uz: "Edge’da ochish", en: "Open in Edge" },
     noTTS: { uz: "Brauzeringiz ovozli o‘qishni qo‘llamaydi — subtitrni o‘qing.", en: "Your browser has no speech synthesis — please read the captions." },
     tabDesc: { uz: "Tavsif", en: "Overview" }, tabTheory: { uz: "Nazariya", en: "Theory" }, tabProc: { uz: "Bajarish tartibi", en: "Procedure" }, tabQ: { uz: "Nazorat savollari", en: "Questions" },
     aim: { uz: "Ishning maqsadi", en: "Aim" }, equip: { uz: "Kerakli asboblar (real praktikumda)", en: "Equipment (real practicum)" }, virt: { uz: "Virtual qurilma", en: "Virtual apparatus" },
@@ -23812,6 +23815,11 @@ window.SIMS["L15"] = function (ctx) {
   }
 
   /* ---------------- ma'ruza pleyeri ---------------- */
+  // o'zbekcha matnni nutq sintezi uchun tayyorlash: rasmiy o'zbek lotin belgilariga o'tkazish
+  function uzSpeech(t) {
+    return t.replace(/([OoGg])[‘'`ʻ’]/g, "$1ʻ").replace(/[’'`]/g, "ʼ")
+      .replace(/\s—\s/g, ", ").replace(/«|»|“|”/g, "").replace(/≈/g, " taxminan ").replace(/·/g, " ");
+  }
   const TTS = {
     ok: typeof window.speechSynthesis !== "undefined" && typeof window.SpeechSynthesisUtterance !== "undefined",
     voices: [],
@@ -23819,13 +23827,19 @@ window.SIMS["L15"] = function (ctx) {
     pick(lang) {
       const pref = store.get("voice-" + lang);
       const vs = this.voices;
-      if (pref) { const v = vs.find((x) => x.name === pref); if (v) return v; }
-      const by = (p) => vs.find((v) => (v.lang || "").toLowerCase().replace("_", "-").startsWith(p));
-      if (lang === "uz") return by("uz") || by("tr") || by("kk") || by("en") || vs[0] || null;
+      const L = (v) => (v.lang || "").toLowerCase().replace("_", "-");
+      if (pref) { const v = vs.find((x) => x.name === pref); if (v && (lang !== "uz" || L(v).startsWith("uz") || !vs.some((x) => L(x).startsWith("uz")))) return v; }
+      const by = (p) => vs.find((v) => L(v).startsWith(p));
+      if (lang === "uz") {
+        // eng yaxshisi: Edge'dagi tabiiy o'zbek ovozlari (Madina, Sardor)
+        const uz = vs.filter((v) => L(v).startsWith("uz") || /uzbek/i.test(v.name));
+        const nat = uz.find((v) => /natural|online|neural/i.test(v.name) && /madina/i.test(v.name)) || uz.find((v) => /natural|online|neural/i.test(v.name));
+        return nat || uz[0] || by("tr") || by("kk") || by("en") || vs[0] || null;
+      }
       return by("en-gb") || by("en-us") || by("en") || vs[0] || null;
     },
   };
-  if (TTS.ok) { TTS.load(); try { speechSynthesis.addEventListener("voiceschanged", () => TTS.load()); } catch (e) { } }
+  if (TTS.ok) { TTS.load(); try { speechSynthesis.addEventListener("voiceschanged", () => { TTS.load(); window.dispatchEvent(new Event("tts:voices")); }); } catch (e) { } }
 
   function splitSentences(s) { return (s || "").match(/[^.!?…]+[.!?…]+["”»)]*\s*|[^.!?…]+$/g) || [s]; }
 
@@ -23927,8 +23941,10 @@ window.SIMS["L15"] = function (ctx) {
       // ovoz eslatmasi
       let msg = "";
       if (!TTS.ok) msg = T(S.noTTS);
-      else if (APP.lang === "uz") { const v = TTS.pick("uz"); if (!v || !/^uz/i.test(v.lang || "")) msg = T(S.noVoiceUz); }
-      note.textContent = msg;
+      let noUz = false;
+      if (msg === "" && APP.lang === "uz") { const v = TTS.pick("uz"); if (!v || !/^uz/i.test(v.lang || "")) { msg = T(S.noVoiceUz); noUz = true; } }
+      note.textContent = msg; note.classList.toggle("warn", noUz);
+      if (noUz && /Windows/i.test(navigator.userAgent) && !/Edg\//.test(navigator.userAgent)) { note.appendChild(document.createTextNode(" ")); note.appendChild(h("a", { href: "microsoft-edge:" + location.href, class: "edge-link", text: T(S.openEdge) })); }
     }
     function stopSpeech() { P.token++; clearTimeout(P.timer); if (TTS.ok) { try { speechSynthesis.cancel(); } catch (e) { } } }
     function speakFrom(k) {
@@ -23937,7 +23953,7 @@ window.SIMS["L15"] = function (ctx) {
       P.si = k; renderCaption();
       const text = P.sent[k].trim();
       if (!TTS.ok || !text) { P.timer = setTimeout(() => { if (tok === P.token) speakFrom(k + 1); }, Math.max(1200, text.split(/\s+/).length * 400 / P.rate)); return; }
-      const u = new SpeechSynthesisUtterance(text);
+      const u = new SpeechSynthesisUtterance(APP.lang === "uz" ? uzSpeech(text) : text);
       const v = TTS.pick(APP.lang); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = APP.lang === "uz" ? "uz-UZ" : "en-GB";
       u.rate = P.rate; u.pitch = 1;
       u.onend = () => { if (tok === P.token) speakFrom(k + 1); };
@@ -23964,7 +23980,8 @@ window.SIMS["L15"] = function (ctx) {
     };
     document.addEventListener("keydown", onKey);
     const offLang = APP.onLang(() => { ov.refreshBar(); renderRel(); const was = P.playing; stopSpeech(); renderSlide(); if (was) speakFrom(0); });
-    ov.destroy = () => { stopSpeech(); if (P.stopAnim) P.stopAnim(); document.removeEventListener("keydown", onKey); offLang(); ov._base(); };
+    const onVoices = () => { if (!P.playing) renderControls(); }; window.addEventListener("tts:voices", onVoices);
+    ov.destroy = () => { stopSpeech(); if (P.stopAnim) P.stopAnim(); document.removeEventListener("keydown", onKey); window.removeEventListener("tts:voices", onVoices); offLang(); ov._base(); };
     renderSlide();
   }
 
