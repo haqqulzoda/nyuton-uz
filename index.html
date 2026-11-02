@@ -490,41 +490,32 @@ window.MathJax = {
     g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r);
     g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath();
   };
-  /* --- laboratoriya foni: devor gradienti, lampa nuri, xira formulalar (katakchalarsiz) --- */
-  const rgbaOf = (hex, a) => {
-    const m = String(hex || "").trim().match(/^#?([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
-    if (!m) return "rgba(128,128,128," + a + ")";
-    return "rgba(" + parseInt(m[1], 16) + "," + parseInt(m[2], 16) + "," + parseInt(m[3], 16) + "," + a + ")";
-  };
-  const BG_FORMULAS = ["F = ma", "p = mv", "E = mv²/2", "T = 2π√(l/g)", "M = F·l", "F = G·m₁m₂/r²", "ω = 2π/T", "σ = Eε"];
+  /* --- laboratoriya foni: rangli osmon, quyosh nuri, bulutlar (kechasi — yulduzli osmon) --- */
   D.backdrop = function (g, W, H) {
-    const C = APP.colors(), dk = C.dark;
+    const dk = APP.isDark();
     g.save();
-    // devor: yuqoridan pastga yumshoq gradient
-    const wall = g.createLinearGradient(0, 0, 0, H);
-    if (dk) { wall.addColorStop(0, "#151c33"); wall.addColorStop(0.55, "#10162a"); wall.addColorStop(1, "#0c1122"); }
-    else { wall.addColorStop(0, "#f3f6fd"); wall.addColorStop(0.55, "#fbfcff"); wall.addColorStop(1, "#f1f4fa"); }
-    g.fillStyle = wall; g.fillRect(0, 0, W, H);
-    // lampa nuri (yuqori markazdan)
-    const lamp = g.createRadialGradient(W * 0.5, -H * 0.15, 10, W * 0.5, -H * 0.15, H * 1.15);
-    lamp.addColorStop(0, dk ? "rgba(127,156,255,0.16)" : "rgba(255,244,214,0.75)");
-    lamp.addColorStop(0.45, dk ? "rgba(127,156,255,0.05)" : "rgba(255,248,230,0.25)");
-    lamp.addColorStop(1, "rgba(0,0,0,0)");
-    g.fillStyle = lamp; g.fillRect(0, 0, W, H);
-    // aksent rangidagi yumshoq dog'lar (chap pastda va o'ng yuqorida)
-    [[W * 0.06, H * 0.92, H * 0.75, C.accent, dk ? 0.10 : 0.07], [W * 0.97, H * 0.08, H * 0.6, C.signal, dk ? 0.08 : 0.06]].forEach(([cx, cy, r, col, a]) => {
-      const rg = g.createRadialGradient(cx, cy, 0, cx, cy, r); rg.addColorStop(0, rgbaOf(col, a)); rg.addColorStop(1, rgbaOf(col, 0));
-      g.fillStyle = rg; g.fillRect(0, 0, W, H);
-    });
-    // xira formulalar — doska izlari kabi
-    g.fillStyle = rgbaOf(C.accent, dk ? 0.075 : 0.055);
-    g.font = APP.font(22, 600, "mono"); g.textBaseline = "middle"; g.textAlign = "center";
-    const spots = [[0.14, 0.20, -0.06], [0.86, 0.30, 0.05], [0.30, 0.62, 0.04], [0.70, 0.74, -0.05], [0.52, 0.12, 0.0], [0.78, 0.90, -0.03], [0.12, 0.82, 0.06]];
-    spots.forEach(([fx, fy, rot], i) => { g.save(); g.translate(W * fx, H * fy); g.rotate(rot); g.fillText(BG_FORMULAS[i % BG_FORMULAS.length], 0, 0); g.restore(); });
-    // chetlarni biroz qoraytirish (vinyetka)
-    const vg = g.createRadialGradient(W / 2, H / 2, Math.min(W, H) * 0.45, W / 2, H / 2, Math.max(W, H) * 0.75);
-    vg.addColorStop(0, "rgba(0,0,0,0)"); vg.addColorStop(1, dk ? "rgba(0,0,0,0.28)" : "rgba(35,72,208,0.05)");
-    g.fillStyle = vg; g.fillRect(0, 0, W, H);
+    // osmon: yuqorida to'qroq ko'k, ufqqa yaqin och
+    const sky = g.createLinearGradient(0, 0, 0, H);
+    if (dk) { sky.addColorStop(0, "#0b1a3a"); sky.addColorStop(0.6, "#16305e"); sky.addColorStop(1, "#24467a"); }
+    else { sky.addColorStop(0, "#7ec8f2"); sky.addColorStop(0.55, "#b5e2fa"); sky.addColorStop(1, "#e3f4fd"); }
+    g.fillStyle = sky; g.fillRect(0, 0, W, H);
+    // quyosh / oy nuri (o'ng yuqori burchak)
+    const sun = g.createRadialGradient(W * 0.9, H * 0.08, 4, W * 0.9, H * 0.08, H * 0.7);
+    sun.addColorStop(0, dk ? "rgba(220,230,255,0.22)" : "rgba(255,250,215,0.85)");
+    sun.addColorStop(0.35, dk ? "rgba(160,180,255,0.07)" : "rgba(255,245,200,0.25)");
+    sun.addColorStop(1, "rgba(255,255,255,0)");
+    g.fillStyle = sun; g.fillRect(0, 0, W, H);
+    if (dk) {
+      // yulduzlar (har safar bir xil joyda)
+      g.fillStyle = "rgba(255,255,255,0.55)";
+      for (let k = 0; k < 40; k++) { const sx = (k * 197.3) % W, sy = (k * 83.7) % (H * 0.55); g.fillRect(sx, sy, k % 3 ? 1.2 : 2, k % 3 ? 1.2 : 2); }
+    }
+    // yumshoq bulutlar
+    const cloud = (cx, cy, s) => {
+      g.fillStyle = dk ? "rgba(200,215,255,0.07)" : "rgba(255,255,255,0.78)";
+      [[0, 0, 1], [-0.9, 0.25, 0.7], [0.95, 0.2, 0.75], [0.35, -0.35, 0.75], [-0.4, -0.25, 0.6]].forEach(([dx, dy, r]) => { g.beginPath(); g.ellipse(cx + dx * 30 * s, cy + dy * 22 * s, 34 * r * s, 22 * r * s, 0, 0, Math.PI * 2); g.fill(); });
+    };
+    cloud(W * 0.16, H * 0.13, 0.9); cloud(W * 0.55, H * 0.07, 0.65); cloud(W * 0.72, H * 0.24, 0.55); cloud(W * 0.36, H * 0.30, 0.45);
     g.restore();
   };
   D.grid = function (g, x, y, w, h, step, color) {
@@ -577,27 +568,35 @@ window.MathJax = {
     if (hl !== false) { g.fillStyle = "rgba(255,255,255,.35)"; g.beginPath(); g.arc(x - r * .35, y - r * .35, r * .35, 0, Math.PI * 2); g.fill(); }
     g.restore();
   };
-  /* qo'zg'almas tayanch / stol: yog'och plita teksturasi + xira shtrix */
+  /* qo'zg'almas tayanch: pastda bo'lsa — yashil maysa va tuproq; yuqorida yoki yonda — bo'yalgan yog'och */
   D.hatch = function (g, x, y, w, h, color) {
-    const C = APP.colors(), dk = C.dark;
+    const dk = APP.isDark();
+    const tr = g.getTransform(), Hc = g.canvas.height / (tr.d || 1);
+    const isGround = y + h >= Hc - 24 && w > 3 * h;
     g.save(); g.beginPath(); g.rect(x, y, w, h); g.clip();
-    const wood = g.createLinearGradient(0, y, 0, y + h);
-    if (dk) { wood.addColorStop(0, "#5a4632"); wood.addColorStop(1, "#3a2c20"); }
-    else { wood.addColorStop(0, "#d9b98f"); wood.addColorStop(1, "#b88d5c"); }
-    g.fillStyle = wood; g.fillRect(x, y, w, h);
-    // yog'och tolalari
-    g.strokeStyle = dk ? "rgba(255,220,170,0.10)" : "rgba(110,70,30,0.18)"; g.lineWidth = 1;
-    for (let k = 0, yy = y + 4; yy < y + h; yy += 5, k++) {
-      g.beginPath(); g.moveTo(x, yy);
-      for (let xx = x; xx <= x + w; xx += 40) g.lineTo(xx, yy + Math.sin((xx + k * 37) * 0.025) * 1.4);
+    if (isGround) {
+      const soil = g.createLinearGradient(0, y, 0, y + h);
+      if (dk) { soil.addColorStop(0, "#2f6b3a"); soil.addColorStop(0.35, "#24552e"); soil.addColorStop(0.36, "#3b2c20"); soil.addColorStop(1, "#2a1f17"); }
+      else { soil.addColorStop(0, "#6fcf5b"); soil.addColorStop(0.35, "#4fb043"); soil.addColorStop(0.36, "#a5764a"); soil.addColorStop(1, "#8a5f38"); }
+      g.fillStyle = soil; g.fillRect(x, y, w, h);
+      // maysa tolalari
+      g.strokeStyle = dk ? "rgba(140,220,140,0.35)" : "rgba(40,120,40,0.55)"; g.lineWidth = 1.2; g.beginPath();
+      for (let xx = x + 2, k = 0; xx < x + w; xx += 6, k++) { const hh = 3 + (k * 7) % 5; g.moveTo(xx, y + 2 + hh); g.lineTo(xx + ((k % 2) ? 1.5 : -1.5), y + 1); }
       g.stroke();
+      // tuproqdagi toshchalar
+      g.fillStyle = dk ? "rgba(0,0,0,0.25)" : "rgba(90,55,25,0.35)";
+      for (let k = 0; k < w / 14; k++) { const px = x + (k * 53.1) % w, py = y + h * 0.5 + ((k * 29.3) % (h * 0.45)); g.fillRect(px, py, 2, 1.5); }
+      g.fillStyle = dk ? "rgba(180,255,170,0.25)" : "rgba(220,255,200,0.7)"; g.fillRect(x, y, w, 1.5);
+    } else {
+      const wood = g.createLinearGradient(0, y, 0, y + h);
+      if (dk) { wood.addColorStop(0, "#8a5a32"); wood.addColorStop(1, "#5a3a20"); }
+      else { wood.addColorStop(0, "#f2b366"); wood.addColorStop(1, "#d98b3a"); }
+      g.fillStyle = wood; g.fillRect(x, y, w, h);
+      g.strokeStyle = dk ? "rgba(255,220,170,0.12)" : "rgba(140,70,20,0.22)"; g.lineWidth = 1;
+      for (let k = 0, yy = y + 3; yy < y + h; yy += 4, k++) { g.beginPath(); g.moveTo(x, yy); for (let xx = x; xx <= x + w; xx += 30) g.lineTo(xx, yy + Math.sin((xx + k * 37) * 0.03) * 1.2); g.stroke(); }
+      g.fillStyle = "rgba(255,255,255,0.45)"; g.fillRect(x, y, w, 1.5);
+      g.fillStyle = "rgba(0,0,0,0.2)"; g.fillRect(x, y + h - 1.5, w, 1.5);
     }
-    // tayanch belgisi sifatida xira shtrix
-    g.strokeStyle = color ? rgbaOf(color, 0.35) : (dk ? "rgba(0,0,0,0.25)" : "rgba(90,55,20,0.22)");
-    g.beginPath(); for (let i = -h; i < w + h; i += 10) { g.moveTo(x + i, y + h); g.lineTo(x + i + h, y); } g.stroke();
-    // yuqori qirra yorug'ligi va soya
-    g.fillStyle = dk ? "rgba(255,230,190,0.18)" : "rgba(255,255,255,0.55)"; g.fillRect(x, y, w, 2);
-    g.fillStyle = "rgba(0,0,0,0.18)"; g.fillRect(x, y + h - 2, w, 2);
     g.restore();
   };
 
