@@ -420,6 +420,38 @@ a.sec-card { text-decoration: none; }
 .slide-count { display: inline-block; align-self: flex-start; background: rgba(21,101,192,.85); color: #fff; padding: 2px 9px; border-radius: 6px; }
 @media (max-width: 960px) { .slide-fig { border-top: 0; padding: 0 16px 110px; } .slide-text { padding-bottom: 20px; } }
 @media (max-width: 640px) { .slide-text { padding: 20px 18px 16px; } .slide-text ul { font-size: 15.5px; } .slide { background-size: 100% 22%, 70% 18%, 100% 100%; } }
+
+/* ---- Ovozli izoh bloki: slayd bilan bir xil uslub + nazariy ma'lumot paneli ---- */
+.caption {
+  --cp-ink: #10213f; color: var(--cp-ink); border: 1px solid #c8def3; border-radius: 14px; padding: 16px 20px 54px;
+  background-color: #e3f1fd;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 260' preserveAspectRatio='none'%3E %3Cpath d='M0 150 C 220 60 420 230 640 140 S 1000 40 1200 120 L1200 260 L0 260Z' fill='%2390caf9' fill-opacity='0.22'/%3E %3Cpath d='M0 190 C 260 110 460 250 700 175 S 1020 90 1200 165 L1200 260 L0 260Z' fill='%2342a5f5' fill-opacity='0.3'/%3E %3Cpath d='M0 225 C 300 170 520 262 760 214 S 1060 160 1200 205 L1200 260 L0 260Z' fill='%231565c0' fill-opacity='0.45'/%3E %3Cpath d='M0 172 C 240 92 450 240 670 158 S 1010 66 1200 142' fill='none' stroke='%23ffffff' stroke-opacity='0.9' stroke-width='3'/%3E %3Cpath d='M0 205 C 280 140 490 256 730 195 S 1040 128 1200 186' fill='none' stroke='%23ffffff' stroke-opacity='0.63' stroke-width='2'/%3E %3Cpath d='M0 238 C 320 196 540 262 780 228 S 1080 186 1200 222' fill='none' stroke='%23ffffff' stroke-opacity='0.45' stroke-width='1.5'/%3E %3C/svg%3E"), linear-gradient(175deg, #ffffff 0%, #eef6fe 55%, #e3f1fd 100%);
+  background-repeat: no-repeat; background-size: 100% 46px, 100% 100%; background-position: bottom left, 0 0;
+  display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(240px, 1fr); gap: 18px; box-shadow: var(--shadow); font-size: 15.5px; line-height: 1.6;
+}
+:root[data-theme="dark"] .caption { --cp-ink: #e6eeff; border-color: #24365e; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 260' preserveAspectRatio='none'%3E %3Cpath d='M0 150 C 220 60 420 230 640 140 S 1000 40 1200 120 L1200 260 L0 260Z' fill='%2360a5fa' fill-opacity='0.18'/%3E %3Cpath d='M0 190 C 260 110 460 250 700 175 S 1020 90 1200 165 L1200 260 L0 260Z' fill='%232563eb' fill-opacity='0.22'/%3E %3Cpath d='M0 225 C 300 170 520 262 760 214 S 1060 160 1200 205 L1200 260 L0 260Z' fill='%231e3a8a' fill-opacity='0.3'/%3E %3Cpath d='M0 172 C 240 92 450 240 670 158 S 1010 66 1200 142' fill='none' stroke='%23ffffff' stroke-opacity='0.35' stroke-width='3'/%3E %3Cpath d='M0 205 C 280 140 490 256 730 195 S 1040 128 1200 186' fill='none' stroke='%23ffffff' stroke-opacity='0.24' stroke-width='2'/%3E %3Cpath d='M0 238 C 320 196 540 262 780 228 S 1080 186 1200 222' fill='none' stroke='%23ffffff' stroke-opacity='0.17' stroke-width='1.5'/%3E %3C/svg%3E"), linear-gradient(175deg, #14213d 0%, #12203b 55%, #0e1a33 100%); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .caption { --cp-ink: #e6eeff; border-color: #24365e; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 260' preserveAspectRatio='none'%3E %3Cpath d='M0 150 C 220 60 420 230 640 140 S 1000 40 1200 120 L1200 260 L0 260Z' fill='%2360a5fa' fill-opacity='0.18'/%3E %3Cpath d='M0 190 C 260 110 460 250 700 175 S 1020 90 1200 165 L1200 260 L0 260Z' fill='%232563eb' fill-opacity='0.22'/%3E %3Cpath d='M0 225 C 300 170 520 262 760 214 S 1060 160 1200 205 L1200 260 L0 260Z' fill='%231e3a8a' fill-opacity='0.3'/%3E %3Cpath d='M0 172 C 240 92 450 240 670 158 S 1010 66 1200 142' fill='none' stroke='%23ffffff' stroke-opacity='0.35' stroke-width='3'/%3E %3Cpath d='M0 205 C 280 140 490 256 730 195 S 1040 128 1200 186' fill='none' stroke='%23ffffff' stroke-opacity='0.24' stroke-width='2'/%3E %3Cpath d='M0 238 C 320 196 540 262 780 228 S 1080 186 1200 222' fill='none' stroke='%23ffffff' stroke-opacity='0.17' stroke-width='1.5'/%3E %3C/svg%3E"), linear-gradient(175deg, #14213d 0%, #12203b 55%, #0e1a33 100%); } }
+.caption .caption-head { opacity: 1; justify-content: flex-start; }
+.caption .caption-head span { background: rgba(21,101,192,.85); color: #fff; padding: 1px 9px; border-radius: 6px; letter-spacing: .06em; }
+.caption .w-on { background: #fff3b0; color: #10213f; border-radius: 4px; box-shadow: 0 0 0 2px #fff3b0; }
+.cap-side { border-left: 2px solid rgba(58,160,230,.35); padding-left: 16px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.side-h { font-family: var(--f-display); font-weight: 600; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: #1565c0; }
+:root[data-theme="dark"] .side-h { color: #7cc4ff; }
+.side-formula { color: #2b2113; border: 1px solid #cdb88c; border-radius: 6px 16px 6px 16px; padding: 10px 12px; overflow-x: auto; text-align: center; font-size: 15px;
+  background: radial-gradient(ellipse at 20% 30%, rgba(255,255,255,.55), transparent 60%), linear-gradient(180deg, #f6eedb, #ece0c4); box-shadow: 0 4px 10px rgba(90,70,30,.12); }
+.side-formula mjx-container { margin: 0 !important; }
+.side-defs { margin: 0; display: grid; gap: 6px; font-size: 13.5px; line-height: 1.45; }
+.side-defs dt { font-weight: 700; color: #1565c0; }
+:root[data-theme="dark"] .side-defs dt { color: #7cc4ff; }
+.side-defs dd { margin: 0 0 4px; }
+.side-photo, .slide-photo { margin: 0; }
+.side-photo img { width: 100%; max-height: 190px; object-fit: cover; object-position: top; border-radius: 10px; border: 3px solid #fff; box-shadow: 0 6px 16px rgba(21,101,192,.18); display: block; background: #fff; }
+.slide-photo { width: 100%; display: grid; gap: 8px; justify-items: center; }
+.slide-photo img { max-width: 100%; max-height: 330px; object-fit: contain; border-radius: 12px; border: 4px solid #fff; box-shadow: 0 10px 26px rgba(21,101,192,.22); background: #fff; }
+.side-photo figcaption, .slide-photo figcaption { font-size: 12.5px; line-height: 1.35; color: var(--cp-ink, #10213f); opacity: .85; text-align: center; }
+.slide-photo figcaption { color: var(--sl-ink); max-width: 46ch; }
+.side-photo small, .slide-photo small { opacity: .7; }
+@media (max-width: 860px) { .caption { grid-template-columns: minmax(0, 1fr); } .cap-side { border-left: 0; padding-left: 0; border-top: 2px solid rgba(58,160,230,.35); padding-top: 12px; } }
 </style>
 <header class="topbar" id="top"></header>
 <main class="page" id="page"></main>
@@ -12480,6 +12512,7 @@ window.SIMS["L15"] = function (ctx) {
     auto: { uz: "Avtomatik keyingi slayd", en: "Auto-advance" },
     speed: { uz: "Tezlik", en: "Speed" }, voice: { uz: "Ovoz", en: "Voice" },
     narr: { uz: "Diktor", en: "Narrator" },
+    theory: { uz: "Nazariy ma’lumot", en: "Theory notes" },
     slideOf: { uz: "slayd", en: "slide" },
     noVoiceUz: { uz: "Qurilmangizda o‘zbek ovozi topilmadi: matn mavjud ovoz bilan o‘qiladi, subtitr har doim ko‘rinadi.", en: "" },
     noTTS: { uz: "Brauzeringiz ovozli o‘qishni qo‘llamaydi — subtitrni o‘qing.", en: "Your browser has no speech synthesis — please read the captions." },
@@ -12875,6 +12908,40 @@ window.SIMS["L15"] = function (ctx) {
 
   function splitSentences(s) { return (s || "").match(/[^.!?…]+[.!?…]+["”»)]*\s*|[^.!?…]+$/g) || [s]; }
 
+  /* ma'ruzalar uchun haqiqiy rasmlar (Wikimedia Commons, erkin litsenziya); yuklanmasa yashiriladi */
+  const LEC_IMG = (() => {
+    const GAL = ["Justus_Sustermans_-_Portrait_of_Galileo_Galilei,_1636.jpg", { uz: "Galileo Galiley (1564–1642) — kinematika asoschisi", en: "Galileo Galilei (1564–1642), founder of kinematics" }];
+    const NEW = ["GodfreyKneller-IsaacNewton-1689.jpg", { uz: "Isaak Nyuton (1643–1727) — klassik mexanika asoschisi", en: "Isaac Newton (1643–1727), founder of classical mechanics" }];
+    const EUL = ["Leonhard_Euler_-_edit1.jpg", { uz: "Leonard Eyler (1707–1783) — qattiq jism dinamikasi tenglamalari muallifi", en: "Leonhard Euler (1707–1783), author of rigid-body dynamics equations" }];
+    const HUY = ["Christiaan_Huygens-painting.jpeg", { uz: "Xristian Gyuygens (1629–1695) — mayatnikli soat va tebranishlar nazariyasi", en: "Christiaan Huygens (1629–1695), pendulum clock and theory of oscillations" }];
+    const BER = ["Daniel_Bernoulli_001.jpg", { uz: "Daniel Bernulli (1700–1782) — gidrodinamika asoschisi", en: "Daniel Bernoulli (1700–1782), founder of hydrodynamics" }];
+    const YNG = ["Thomas_Young_(scientist).jpg", { uz: "Tomas Yung (1773–1829) — to‘lqinlar interferensiyasi tadqiqotchisi", en: "Thomas Young (1773–1829), pioneer of wave interference" }];
+    return {
+      L01: GAL, L02: GAL, L03: GAL, L04: NEW, L05: NEW, L06: NEW,
+      L07: ["Space_Shuttle_Columbia_launching.jpg", { uz: "Raketa uchishi — o‘zgaruvchan massali jism harakati", en: "Rocket launch: motion of a body with variable mass" }],
+      L08: ["Newtons_cradle_animation_book_2.gif", { uz: "Nyuton beshigi — impuls va energiyaning saqlanishi", en: "Newton's cradle: conservation of momentum and energy" }],
+      L09: NEW, L10: ["Foucault_pendulum_animated.gif", { uz: "Fuko mayatnigi — Yerning aylanishi va inersiya kuchlari", en: "Foucault pendulum: Earth's rotation and inertial forces" }],
+      L11: NEW, L12: EUL, L13: EUL, L14: EUL, L15: EUL,
+      L16: ["Gyroscope_operation.gif", { uz: "Giroskop — erkin o‘q atrofida aylanish", en: "Gyroscope: rotation about a free axis" }],
+      L17: NEW, L18: ["The_Earth_seen_from_Apollo_17.jpg", { uz: "Yer — «Apollon-17» kemasidan olingan surat", en: "The Earth photographed from Apollo 17" }],
+      L19: ["Blaise_Pascal_Versailles.JPG", { uz: "Blez Paskal (1623–1662) — gidrostatika qonuni", en: "Blaise Pascal (1623–1662), law of hydrostatics" }],
+      L20: BER, L21: BER, L22: HUY, L23: HUY, L24: HUY, L25: HUY, L26: HUY, L27: YNG, L28: YNG, L29: YNG,
+      L30: ["Christian_Doppler.jpg", { uz: "Kristian Dopler (1803–1853) — Dopler effekti muallifi", en: "Christian Doppler (1803–1853), discoverer of the Doppler effect" }],
+    };
+  })();
+  function lecImage(id, cls, w, onFail) {
+    const r = LEC_IMG[id]; if (!r) return null;
+    const fig = h("figure", { class: cls });
+    const img = h("img", { src: "https://commons.wikimedia.org/wiki/Special:FilePath/" + encodeURIComponent(r[0]) + "?width=" + (w || 480), alt: T(r[1]), loading: "lazy", referrerpolicy: "no-referrer" });
+    img.addEventListener("error", () => { fig.remove(); if (onFail) onFail(); });
+    fig.appendChild(img); fig.appendChild(h("figcaption", null, T(r[1]), h("small", { text: " · Wikimedia Commons" })));
+    return fig;
+  }
+  function glossFor(text, max) {
+    const t = (text || "").toLowerCase(), out = [];
+    GLOSS.forEach((r) => { const key = (APP.lang === "en" ? r[1] : r[0]).toLowerCase(); if (out.length < max && key.length > 3 && t.indexOf(key.slice(0, Math.max(4, key.length - 2))) >= 0) out.push(r); });
+    return out;
+  }
   function openLecture(n) {
     const id = lecId(n), L = LEC()[id];
     if (!L) return;
@@ -12886,7 +12953,9 @@ window.SIMS["L15"] = function (ctx) {
     const slide = h("article", { class: "slide" });
     const stext = h("div", { class: "slide-text" }); const sfig = h("div", { class: "slide-fig" });
     slide.appendChild(stext); slide.appendChild(sfig); wrap.appendChild(slide);
-    const cap = h("div", { class: "caption", "aria-live": "polite" }); wrap.appendChild(cap);
+    const cap = h("div", { class: "caption" }); wrap.appendChild(cap);
+    const capMain = h("div", { class: "cap-main", "aria-live": "polite" }), capSide = h("aside", { class: "cap-side" });
+    cap.appendChild(capMain); cap.appendChild(capSide);
     const ctr = h("div", { class: "pcontrols" }); wrap.appendChild(ctr);
     const note = h("div", { class: "voice-note" }); wrap.appendChild(note);
     const rel = h("div", { class: "btnrow", style: "align-items:center;gap:8px" }); wrap.appendChild(rel);
@@ -12909,17 +12978,26 @@ window.SIMS["L15"] = function (ctx) {
       if (P.stopAnim) { P.stopAnim(); P.stopAnim = null; }
       sfig.innerHTML = "";
       if (s.anim && window.ANIMS && window.ANIMS[s.anim]) { slide.classList.remove("no-fig"); const cv = h("canvas"); sfig.appendChild(cv); P.stopAnim = runAnim(cv, s.anim, true); }
-      else slide.classList.add("no-fig");
+      else { slide.classList.add("no-fig"); const im = lecImage(id, "slide-photo", 640, () => { if (!sfig.children.length) slide.classList.add("no-fig"); }); if (im) { slide.classList.remove("no-fig"); sfig.appendChild(im); } }
+      renderSide(s);
       P.sent = splitSentences(T(s.narration)); P.si = -1; renderCaption();
       renderControls();
       setHash("maruza-" + pad(n));
     }
+    function renderSide(s) {
+      capSide.innerHTML = "";
+      capSide.appendChild(h("div", { class: "side-h", text: T(S.theory) }));
+      if (s.formula) { const f = h("div", { class: "side-formula" }); capSide.appendChild(f); tex(f, s.formula, true); }
+      const gl = glossFor(T(s.narration) + " " + (T(s.points) || []).join(" "), 2);
+      if (gl.length) { const dl = h("dl", { class: "side-defs" }); gl.forEach((r) => { dl.appendChild(h("dt", { text: APP.lang === "en" ? r[1] : r[0] })); dl.appendChild(h("dd", { text: APP.lang === "en" ? r[3] : r[2] })); }); capSide.appendChild(dl); }
+      if (s.anim) { const im = lecImage(id, "side-photo", 360); if (im) capSide.appendChild(im); }
+    }
     function renderCaption() {
-      cap.innerHTML = "";
-      cap.appendChild(h("div", { class: "caption-head" }, h("span", { text: T(S.narr) }), h("span", { text: T(S.slideOf) + " " + (P.i + 1) })));
-      const p = h("div");
+      capMain.innerHTML = "";
+      capMain.appendChild(h("div", { class: "caption-head" }, h("span", { text: T(S.slideOf) + " " + (P.i + 1) + " / " + L.slides.length })));
+      const p = h("div", { class: "cap-text" });
       P.sent.forEach((s, k) => p.appendChild(h("span", { class: k === P.si ? "w-on" : "", text: s })));
-      cap.appendChild(p);
+      capMain.appendChild(p);
     }
     function renderControls() {
       ctr.innerHTML = "";
