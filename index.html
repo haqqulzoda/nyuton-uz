@@ -387,6 +387,39 @@ a.sec-card { text-decoration: none; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .hero-stats b { filter: brightness(1.45); } }
 .hero-fig { border: 0; background: linear-gradient(135deg, #7ec8f2, #c7ecd0); padding: 6px; }
 .module[class*=" m"] .module-head { flex-wrap: wrap; row-gap: 6px; }
+
+/* ---- Ma'ruza slaydlari: taqdimot uslubi (havorang fon, moviy to'lqinlar, pergament formula bloki) ---- */
+.slide {
+  --sl-bg1: #ffffff; --sl-bg2: #e3f1fd; --sl-ink: #10213f; --sl-star: #3aa0e6;
+  background-color: var(--sl-bg2);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 260' preserveAspectRatio='none'%3E %3Cpath d='M0 150 C 220 60 420 230 640 140 S 1000 40 1200 120 L1200 260 L0 260Z' fill='%2390caf9' fill-opacity='0.22'/%3E %3Cpath d='M0 190 C 260 110 460 250 700 175 S 1020 90 1200 165 L1200 260 L0 260Z' fill='%2342a5f5' fill-opacity='0.3'/%3E %3Cpath d='M0 225 C 300 170 520 262 760 214 S 1060 160 1200 205 L1200 260 L0 260Z' fill='%231565c0' fill-opacity='0.45'/%3E %3Cpath d='M0 172 C 240 92 450 240 670 158 S 1010 66 1200 142' fill='none' stroke='%23ffffff' stroke-opacity='0.9' stroke-width='3'/%3E %3Cpath d='M0 205 C 280 140 490 256 730 195 S 1040 128 1200 186' fill='none' stroke='%23ffffff' stroke-opacity='0.63' stroke-width='2'/%3E %3Cpath d='M0 238 C 320 196 540 262 780 228 S 1080 186 1200 222' fill='none' stroke='%23ffffff' stroke-opacity='0.45' stroke-width='1.5'/%3E %3C/svg%3E"), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 160' preserveAspectRatio='none'%3E%3Cpath d='M0 0 H600 V150 C 500 120 380 40 250 26 S 70 8 0 0Z' fill='%2364b5f6' fill-opacity='0.24'/%3E%3Cpath d='M180 0 H600 V95 C 520 70 430 22 330 12 S 230 4 180 0Z' fill='%23ffffff' fill-opacity='0.45'/%3E%3Cpath d='M0 0 C 70 8 180 14 250 26 S 500 120 600 150' fill='none' stroke='%23ffffff' stroke-opacity='0.8' stroke-width='2'/%3E%3C/svg%3E"), linear-gradient(170deg, var(--sl-bg1) 0%, #f2f8fe 45%, var(--sl-bg2) 100%);
+  background-repeat: no-repeat; background-size: 100% 34%, 55% 30%, 100% 100%; background-position: bottom left, top right, 0 0;
+  border: 1px solid #c8def3; min-height: 460px;
+}
+:root[data-theme="dark"] .slide { --sl-bg1: #14213d; --sl-bg2: #0e1a33; --sl-ink: #e6eeff; --sl-star: #7cc4ff; border-color: #24365e;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 260' preserveAspectRatio='none'%3E %3Cpath d='M0 150 C 220 60 420 230 640 140 S 1000 40 1200 120 L1200 260 L0 260Z' fill='%2360a5fa' fill-opacity='0.18'/%3E %3Cpath d='M0 190 C 260 110 460 250 700 175 S 1020 90 1200 165 L1200 260 L0 260Z' fill='%232563eb' fill-opacity='0.22'/%3E %3Cpath d='M0 225 C 300 170 520 262 760 214 S 1060 160 1200 205 L1200 260 L0 260Z' fill='%231e3a8a' fill-opacity='0.3'/%3E %3Cpath d='M0 172 C 240 92 450 240 670 158 S 1010 66 1200 142' fill='none' stroke='%23ffffff' stroke-opacity='0.35' stroke-width='3'/%3E %3Cpath d='M0 205 C 280 140 490 256 730 195 S 1040 128 1200 186' fill='none' stroke='%23ffffff' stroke-opacity='0.24' stroke-width='2'/%3E %3Cpath d='M0 238 C 320 196 540 262 780 228 S 1080 186 1200 222' fill='none' stroke='%23ffffff' stroke-opacity='0.17' stroke-width='1.5'/%3E %3C/svg%3E"), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 160' preserveAspectRatio='none'%3E%3Cpath d='M0 0 H600 V150 C 500 120 380 40 250 26 S 70 8 0 0Z' fill='%233b82f6' fill-opacity='0.15'/%3E%3Cpath d='M180 0 H600 V95 C 520 70 430 22 330 12 S 230 4 180 0Z' fill='%23ffffff' fill-opacity='0.06'/%3E%3Cpath d='M0 0 C 70 8 180 14 250 26 S 500 120 600 150' fill='none' stroke='%23ffffff' stroke-opacity='0.15' stroke-width='2'/%3E%3C/svg%3E"), linear-gradient(170deg, var(--sl-bg1) 0%, #12203b 45%, var(--sl-bg2) 100%); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .slide { --sl-bg1: #14213d; --sl-bg2: #0e1a33; --sl-ink: #e6eeff; --sl-star: #7cc4ff; border-color: #24365e;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 260' preserveAspectRatio='none'%3E %3Cpath d='M0 150 C 220 60 420 230 640 140 S 1000 40 1200 120 L1200 260 L0 260Z' fill='%2360a5fa' fill-opacity='0.18'/%3E %3Cpath d='M0 190 C 260 110 460 250 700 175 S 1020 90 1200 165 L1200 260 L0 260Z' fill='%232563eb' fill-opacity='0.22'/%3E %3Cpath d='M0 225 C 300 170 520 262 760 214 S 1060 160 1200 205 L1200 260 L0 260Z' fill='%231e3a8a' fill-opacity='0.3'/%3E %3Cpath d='M0 172 C 240 92 450 240 670 158 S 1010 66 1200 142' fill='none' stroke='%23ffffff' stroke-opacity='0.35' stroke-width='3'/%3E %3Cpath d='M0 205 C 280 140 490 256 730 195 S 1040 128 1200 186' fill='none' stroke='%23ffffff' stroke-opacity='0.24' stroke-width='2'/%3E %3Cpath d='M0 238 C 320 196 540 262 780 228 S 1080 186 1200 222' fill='none' stroke='%23ffffff' stroke-opacity='0.17' stroke-width='1.5'/%3E %3C/svg%3E"), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 160' preserveAspectRatio='none'%3E%3Cpath d='M0 0 H600 V150 C 500 120 380 40 250 26 S 70 8 0 0Z' fill='%233b82f6' fill-opacity='0.15'/%3E%3Cpath d='M180 0 H600 V95 C 520 70 430 22 330 12 S 230 4 180 0Z' fill='%23ffffff' fill-opacity='0.06'/%3E%3Cpath d='M0 0 C 70 8 180 14 250 26 S 500 120 600 150' fill='none' stroke='%23ffffff' stroke-opacity='0.15' stroke-width='2'/%3E%3C/svg%3E"), linear-gradient(170deg, var(--sl-bg1) 0%, #12203b 45%, var(--sl-bg2) 100%); } }
+.slide-text { padding: 30px 32px 120px; color: var(--sl-ink); }
+.slide-text h2 { color: var(--sl-ink); font-size: clamp(21px, 2.5vw, 30px); text-shadow: 0 1px 0 rgba(255,255,255,.6); }
+:root[data-theme="dark"] .slide-text h2 { text-shadow: none; }
+.slide-topic { font-family: var(--f-display); font-weight: 600; font-size: clamp(15px, 1.6vw, 19px); line-height: 1.25; color: var(--sl-ink); }
+.slide-topic span { text-transform: uppercase; letter-spacing: .04em; color: #1565c0; margin-right: 6px; }
+:root[data-theme="dark"] .slide-topic span { color: #7cc4ff; }
+.slide-text ul { list-style: none; padding-left: 0; font-size: 17px; gap: 10px; }
+.slide-text li { position: relative; padding-left: 26px; line-height: 1.45; }
+.slide-text li::before { content: "\2731"; position: absolute; left: 2px; top: 1px; color: var(--sl-star); font-size: 15px; }
+.slide .formula {
+  color: #2b2113; border: 1px solid #cdb88c; border-radius: 6px 22px 6px 22px; padding: 16px 20px;
+  background: radial-gradient(ellipse at 20% 30%, rgba(255,255,255,.55), transparent 60%), radial-gradient(ellipse at 80% 80%, rgba(170,140,90,.18), transparent 55%), linear-gradient(180deg, #f6eedb, #ece0c4);
+  box-shadow: 0 6px 14px rgba(90,70,30,.15), inset 0 0 0 4px rgba(255,255,255,.35);
+}
+.slide-fig { background: transparent; border-left: 0; padding: 18px 18px 18px 6px; align-items: flex-start; }
+.slide-fig canvas { border-radius: 14px; box-shadow: 0 8px 22px rgba(21,101,192,.18); border: 3px solid rgba(255,255,255,.85); }
+:root[data-theme="dark"] .slide-fig canvas { border-color: rgba(255,255,255,.08); }
+.slide-count { display: inline-block; align-self: flex-start; background: rgba(21,101,192,.85); color: #fff; padding: 2px 9px; border-radius: 6px; }
+@media (max-width: 960px) { .slide-fig { border-top: 0; padding: 0 16px 110px; } .slide-text { padding-bottom: 20px; } }
+@media (max-width: 640px) { .slide-text { padding: 20px 18px 16px; } .slide-text ul { font-size: 15.5px; } .slide { background-size: 100% 22%, 70% 18%, 100% 100%; } }
 </style>
 <header class="topbar" id="top"></header>
 <main class="page" id="page"></main>
@@ -12869,12 +12902,13 @@ window.SIMS["L15"] = function (ctx) {
       const s = L.slides[P.i];
       stext.innerHTML = "";
       stext.appendChild(h("div", { class: "slide-count", text: pad(P.i + 1) + " / " + pad(L.slides.length) }));
+      if (P.i === 0) stext.appendChild(h("div", { class: "slide-topic" }, h("span", { text: APP.lang === "en" ? "Topic:" : "Mavzu:" }), T(L.title)));
       stext.appendChild(h("h2", { text: T(s.title) }));
       const ul = h("ul"); (T(s.points) || []).forEach((p) => ul.appendChild(h("li", { text: p }))); stext.appendChild(ul);
       if (s.formula) { const f = h("div", { class: "formula" }); stext.appendChild(f); tex(f, s.formula, true); }
       if (P.stopAnim) { P.stopAnim(); P.stopAnim = null; }
       sfig.innerHTML = "";
-      if (s.anim && window.ANIMS && window.ANIMS[s.anim]) { slide.classList.remove("no-fig"); const cv = h("canvas"); sfig.appendChild(cv); P.stopAnim = runAnim(cv, s.anim); }
+      if (s.anim && window.ANIMS && window.ANIMS[s.anim]) { slide.classList.remove("no-fig"); const cv = h("canvas"); sfig.appendChild(cv); P.stopAnim = runAnim(cv, s.anim, true); }
       else slide.classList.add("no-fig");
       P.sent = splitSentences(T(s.narration)); P.si = -1; renderCaption();
       renderControls();
