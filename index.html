@@ -516,6 +516,14 @@ window.MathJax = {
       [[0, 0, 1], [-0.9, 0.25, 0.7], [0.95, 0.2, 0.75], [0.35, -0.35, 0.75], [-0.4, -0.25, 0.6]].forEach(([dx, dy, r]) => { g.beginPath(); g.ellipse(cx + dx * 30 * s, cy + dy * 22 * s, 34 * r * s, 22 * r * s, 0, 0, Math.PI * 2); g.fill(); });
     };
     cloud(W * 0.16, H * 0.13, 0.9); cloud(W * 0.55, H * 0.07, 0.65); cloud(W * 0.72, H * 0.24, 0.55); cloud(W * 0.36, H * 0.30, 0.45);
+    // uzoqdagi tepaliklar (ikki qatlam, och rangda — yozuvlar o'qilishi uchun)
+    const hills = (base, amp, f, ph, col) => {
+      g.fillStyle = col; g.beginPath(); g.moveTo(0, H);
+      for (let x = 0; x <= W; x += 8) g.lineTo(x, H - base - amp * (0.55 * Math.sin(x * f + ph) + 0.45 * Math.sin(x * f * 2.3 + ph * 1.7)));
+      g.lineTo(W, H); g.closePath(); g.fill();
+    };
+    hills(H * 0.20, H * 0.05, 0.006, 0.8, dk ? "rgba(40,80,70,0.45)" : "rgba(170,222,160,0.55)");
+    hills(H * 0.12, H * 0.04, 0.009, 2.1, dk ? "rgba(30,64,52,0.55)" : "rgba(140,205,125,0.45)");
     g.restore();
   };
   D.grid = function (g, x, y, w, h, step, color) {
