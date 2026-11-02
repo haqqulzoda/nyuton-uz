@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="Golos Text, Segoe UI, sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker><marker id="a-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker><marker id="a-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a6"/></marker></defs>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<rect x="20.0" y="110.0" width="150.0" height="200.0" rx="4" stroke="#10213f" stroke-width="2.5" fill="#ffffff"/>
+<circle cx="88.8" cy="220.8" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="150.1" cy="203.8" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="54.0" cy="212.1" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="111.9" cy="262.7" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="42.2" cy="174.6" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="41.8" cy="265.7" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="120.1" cy="127.5" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="157.7" cy="293.7" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="50.5" cy="122.7" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="89.5" cy="170.1" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="139.2" cy="247.4" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="131.2" cy="168.6" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="69.5" cy="279.3" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="43.0" cy="298.1" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="126.1" cy="289.3" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="84.8" cy="138.7" r="6.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<rect x="205.0" y="240.0" width="80.0" height="70.0" rx="0" stroke="none" stroke-width="0" fill="#dbe4fb"/>
+<path d="M 205,140 L 205,310 L 285,310 L 285,140" stroke="#10213f" stroke-width="2.5" fill="none" />
+<line x1="205.0" y1="240.0" x2="285.0" y2="240.0" stroke="#2348d0" stroke-width="2"/>
+<path d="M 320,310 L 410,310 L 384.9,223.7 L 345.1,223.7 Z" stroke="none" stroke-width="0" fill="#dbe4fb" />
+<path d="M 352,140 L 352,200 L 320,310 L 410,310 L 378,200 L 378,140" stroke="#10213f" stroke-width="2.5" fill="none" />
+<line x1="345.1" y1="223.7" x2="384.9" y2="223.7" stroke="#2348d0" stroke-width="2"/>
+<text x="245.0" y="283.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#2348d0" text-anchor="middle" font-weight="normal">V</text>
+<text x="365.0" y="285.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#2348d0" text-anchor="middle" font-weight="normal">V</text>
+<text x="305.0" y="345.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#10213f" text-anchor="middle" font-weight="normal">V = const</text>
+<path d="M 430.0,230 L 510.0,230 L 510.0,310 L 430.0,310 Z" stroke="#10213f" stroke-width="2.5" fill="#fbe6d3" />
+<path d="M 430.0,230 L 458.0,204 L 538.0,204 L 510.0,230" stroke="#10213f" stroke-width="2.5" fill="#f6d6b8" />
+<path d="M 510.0,230 L 538.0,204 L 538.0,284 L 510.0,310" stroke="#10213f" stroke-width="2.5" fill="#eec39b" />
+<line x1="410.0" y1="310.0" x2="540.0" y2="310.0" stroke="#10213f" stroke-width="2"/>
+<line x1="410.0" y1="310.0" x2="402.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="422.0" y1="310.0" x2="414.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="434.0" y1="310.0" x2="426.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="446.0" y1="310.0" x2="438.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="458.0" y1="310.0" x2="450.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="470.0" y1="310.0" x2="462.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="482.0" y1="310.0" x2="474.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="494.0" y1="310.0" x2="486.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="506.0" y1="310.0" x2="498.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="518.0" y1="310.0" x2="510.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="530.0" y1="310.0" x2="522.0" y2="319.0" stroke="#10213f" stroke-width="1.2"/>
+<text x="482.0" y="345.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#10213f" text-anchor="middle" font-weight="normal">V = const</text>
+<line x1="188.0" y1="60.0" x2="188.0" y2="380.0" stroke="#8a94a6" stroke-width="1" stroke-dasharray="4 6"/>
+<line x1="428.0" y1="60.0" x2="428.0" y2="380.0" stroke="#8a94a6" stroke-width="1" stroke-dasharray="4 6"/>
+<text x="95.0" y="60.0" font-size="20" fill="#c9620f" text-anchor="middle" font-weight="bold">1</text>
+<text x="305.0" y="60.0" font-size="20" fill="#c9620f" text-anchor="middle" font-weight="bold">2</text>
+<text x="482.0" y="60.0" font-size="20" fill="#c9620f" text-anchor="middle" font-weight="bold">3</text>
+
+</svg>

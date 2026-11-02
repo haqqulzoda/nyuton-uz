@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<circle cx="200" cy="210" r="150" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<path d="M305,210 A105,105 0 1 0 95,210 A105,105 0 1 0 305,210 Z M285,210 A85,85 0 1 1 115,210 A85,85 0 1 1 285,210 Z" fill="#fbeee2" stroke="#c9620f" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd"/>
+<circle cx="200" cy="210" r="4" fill="#10213f" stroke="#10213f" stroke-width="2"/>
+<line x1="230" y1="210" x2="230" y2="193.5" stroke="#2348d0" stroke-width="2.5" marker-end="url(#mB)"/>
+<line x1="260" y1="210" x2="260" y2="177" stroke="#2348d0" stroke-width="2.5" marker-end="url(#mB)"/>
+<line x1="290" y1="210" x2="290" y2="160.5" stroke="#2348d0" stroke-width="2.5" marker-end="url(#mB)"/>
+<line x1="320" y1="210" x2="320" y2="144" stroke="#2348d0" stroke-width="2.5" marker-end="url(#mB)"/>
+<line x1="345" y1="210" x2="345" y2="130.25" stroke="#2348d0" stroke-width="2.5" marker-end="url(#mB)"/>
+<line x1="200" y1="210" x2="350" y2="210" stroke="#10213f" stroke-width="1.5"/>
+<line x1="200" y1="210" x2="131.865" y2="291.201" stroke="#10213f" stroke-width="1.5" marker-end="url(#mK)"/>
+<text x="140" y="270" class="s" text-anchor="middle" style="font-size:19px;">r</text>
+<text x="375" y="218" class="s" text-anchor="start" style="font-size:21px;">R</text>
+<text x="350" y="115" class="s" text-anchor="start" style="font-size:21px;fill:#2348d0;">τ</text>
+<text x="80" y="90" class="s" text-anchor="middle" style="font-size:19px;fill:#c9620f;">dr</text>
+<text x="470" y="300" class="s" text-anchor="middle" style="font-size:19px;">τ = Gr dφ/dl</text>
+<text x="470" y="345" class="s" text-anchor="middle" style="font-size:19px;">dM = τ · 2πr dr · r</text>
+</svg>

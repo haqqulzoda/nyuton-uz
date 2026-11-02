@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<rect x="40" y="140" width="480" height="70" rx="0" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<line x1="40" y1="175" x2="8" y2="175" stroke="#c9620f" stroke-width="4" marker-end="url(#mO)"/>
+<line x1="520" y1="175" x2="552" y2="175" stroke="#c9620f" stroke-width="4" marker-end="url(#mO)"/>
+<text x="24" y="160" class="s" text-anchor="middle" style="font-size:19px;fill:#c9620f;">F</text>
+<text x="540" y="160" class="s" text-anchor="middle" style="font-size:19px;fill:#c9620f;">F</text>
+<rect x="200" y="140" width="160" height="70" rx="0" fill="#fbeee2" stroke="#c9620f" stroke-width="2" />
+<line x1="202" y1="150" x2="174" y2="150" stroke="#2348d0" stroke-width="2" marker-end="url(#mB)"/>
+<line x1="358" y1="150" x2="386" y2="150" stroke="#2348d0" stroke-width="2" marker-end="url(#mB)"/>
+<line x1="202" y1="162" x2="174" y2="162" stroke="#2348d0" stroke-width="2" marker-end="url(#mB)"/>
+<line x1="358" y1="162" x2="386" y2="162" stroke="#2348d0" stroke-width="2" marker-end="url(#mB)"/>
+<line x1="202" y1="174" x2="174" y2="174" stroke="#2348d0" stroke-width="2" marker-end="url(#mB)"/>
+<line x1="358" y1="174" x2="386" y2="174" stroke="#2348d0" stroke-width="2" marker-end="url(#mB)"/>
+<line x1="202" y1="186" x2="174" y2="186" stroke="#2348d0" stroke-width="2" marker-end="url(#mB)"/>
+<line x1="358" y1="186" x2="386" y2="186" stroke="#2348d0" stroke-width="2" marker-end="url(#mB)"/>
+<line x1="202" y1="198" x2="174" y2="198" stroke="#2348d0" stroke-width="2" marker-end="url(#mB)"/>
+<line x1="358" y1="198" x2="386" y2="198" stroke="#2348d0" stroke-width="2" marker-end="url(#mB)"/>
+<path d="M200,140 A10,35 0 0 1 200,210" fill="none" stroke="#c9620f" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3" />
+<text x="180" y="240" class="s" text-anchor="middle" style="font-size:19px;">S</text>
+<text x="380" y="240" class="s" text-anchor="middle" style="font-size:19px;">S</text>
+<line x1="200" y1="270" x2="360" y2="270" stroke="#10213f" stroke-width="1.5" marker-end="url(#mK)" marker-start="url(#mK)"/>
+<text x="280" y="262" class="s" text-anchor="middle" style="font-size:19px;">l</text>
+<text x="280" y="330" class="s" text-anchor="middle" style="font-size:24px;fill:#c9620f;">σ = F/S</text>
+<text x="280" y="380" class="s" text-anchor="middle" style="font-size:22px;">ε = Δl/l<tspan baseline-shift="sub" font-size="14">0</tspan></text>
+</svg>

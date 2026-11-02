@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8499"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#10213f" stroke-width="1.2"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text, Segoe UI, sans-serif";font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#10213f}
+.sb{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#2348d0}
+.so{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#c9620f}
+.f{font-family:"Times New Roman, serif";font-size:19px;fill:#10213f}
+.fo{font-family:"Times New Roman, serif";font-size:19px;fill:#c9620f}
+</style>
+<rect width="560" height="420" fill="#ffffff"/>
+<circle cx="230.0" cy="240.0" r="160.0" stroke="#7a8499" fill="none" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="230.0" y1="240.0" x2="390.0" y2="240.0" stroke="#2348d0" stroke-width="3" marker-end="url(#ab)"/>
+<text x="360.0" y="268.0" class="sb" text-anchor="start">L<tspan font-size="14" dy="5" font-style="normal">0</tspan><tspan dy="-5"> </tspan></text>
+<line x1="230.0" y1="240.0" x2="371.3" y2="164.9" stroke="#2348d0" stroke-width="3" marker-end="url(#ab)"/>
+<text x="341.3" y="152.9" class="sb" text-anchor="start">L</text>
+<line x1="390.0" y1="240.0" x2="373.3" y2="168.9" stroke="#c9620f" stroke-width="2.8" marker-end="url(#ao)"/>
+<text x="402.0" y="206.0" class="fo" text-anchor="start">dL = M dt</text>
+<polyline points="290.0,240.0 290.0,239.0 290.0,238.0 289.9,237.1 289.9,236.1 289.8,235.1 289.7,234.1 289.6,233.2 289.5,232.2 289.4,231.2 289.2,230.3 289.0,229.3 288.9,228.3 288.7,227.4 288.4,226.4 288.2,225.5 288.0,224.5 287.7,223.6 287.4,222.7 287.1,221.7 286.8,220.8 286.5,219.9 286.2,219.0 285.8,218.0 285.5,217.1 285.1,216.2 284.7,215.3 284.3,214.5 283.9,213.6 283.4,212.7 283.0,211.8" stroke="#10213f" fill="none" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="296.0" y="228.0" class="s" text-anchor="start">dα</text>
+<circle cx="230.0" cy="240.0" r="10.0" stroke="#10213f" fill="#fff" stroke-width="2"/>
+<circle cx="230" cy="240" r="2.8" fill="#10213f"/>
+<text x="190.0" y="224.0" class="s" text-anchor="start">Ω</text>
+<polyline points="369.4,123.0 366.7,119.8 363.8,116.7 360.9,113.6 357.9,110.6 354.9,107.6 351.8,104.7 348.6,102.0 345.4,99.2 342.1,96.6 338.7,94.0 335.3,91.5 331.8,89.1 328.2,86.8 324.6,84.5 321.0,82.4 317.3,80.3 313.6,78.3 309.8,76.4 306.0,74.6 302.1,72.9 298.2,71.3 294.2,69.7 290.3,68.3 286.2,66.9 282.2,65.6 278.1,64.5 274.0,63.4 269.9,62.4 265.8,61.5 261.6,60.8" stroke="#c9620f" fill="none" stroke-width="2.2" marker-end="url(#ao)"/>
+<text x="40.0" y="60.0" class="f" text-anchor="start">Ω = dα/dt = M / L</text>
+</svg>

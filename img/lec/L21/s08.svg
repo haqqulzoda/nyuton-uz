@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="Golos Text, Segoe UI, sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker><marker id="a-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker><marker id="a-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a6"/></marker></defs>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<line x1="25.0" y1="110.0" x2="95.0" y2="110.0" stroke="#2348d0" stroke-width="2.4" marker-end="url(#a-acc)"/>
+<line x1="25.0" y1="150.0" x2="95.0" y2="150.0" stroke="#2348d0" stroke-width="2.4" marker-end="url(#a-acc)"/>
+<line x1="25.0" y1="190.0" x2="95.0" y2="190.0" stroke="#2348d0" stroke-width="2.4" marker-end="url(#a-acc)"/>
+<text x="60.0" y="98.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#2348d0" text-anchor="middle" font-weight="normal">v</text>
+<path d="M 140,138 L 340,138 L 340,235" stroke="#10213f" stroke-width="2.6" fill="none" />
+<path d="M 140,162 L 316,162 L 316,235" stroke="#10213f" stroke-width="2.6" fill="none" />
+<path d="M 140,138 Q 122,150 140,162" stroke="#10213f" stroke-width="2.6" fill="none" />
+<path d="M 128,150 L 328,150 L 328,235" stroke="#10213f" stroke-width="1.4" fill="none" stroke-dasharray="5 3" />
+<circle cx="128.0" cy="150.0" r="4.5" stroke="#c9620f" stroke-width="2" fill="#c9620f"/>
+<line x1="240.0" y1="132.0" x2="240.0" y2="144.0" stroke="#c9620f" stroke-width="3.2"/>
+<line x1="262.0" y1="132.0" x2="262.0" y2="144.0" stroke="#c9620f" stroke-width="3.2"/>
+<text x="128.0" y="122.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#c9620f" text-anchor="middle" font-weight="normal">p + ρv²/2</text>
+<text x="251.0" y="122.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#c9620f" text-anchor="middle" font-weight="normal">p</text>
+<path d="M 380,255 L 380,395 L 488,395 L 488,255" stroke="#10213f" stroke-width="2.4" fill="none" />
+<path d="M 398,255 L 398,377 L 470,377 L 470,255" stroke="#10213f" stroke-width="2.4" fill="none" />
+<path d="M 381,345 L 381,394 L 487,394 L 487,290 L 471,290 L 471,378 L 397,378 L 397,345 Z" stroke="none" stroke-width="0" fill="#fbe6d3" />
+<line x1="380.0" y1="345.0" x2="398.0" y2="345.0" stroke="#c9620f" stroke-width="2"/>
+<line x1="470.0" y1="290.0" x2="488.0" y2="290.0" stroke="#c9620f" stroke-width="2"/>
+<path d="M 328,235 L 328,245 L 389.0,245 L 389.0,255" stroke="#10213f" stroke-width="1.6" fill="none" stroke-dasharray="5 3" />
+<path d="M 340,235 L 340,230 L 479.0,230 L 479.0,255" stroke="#10213f" stroke-width="1.6" fill="none" />
+<line x1="398.0" y1="345.0" x2="540.0" y2="345.0" stroke="#8a94a6" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="488.0" y1="290.0" x2="540.0" y2="290.0" stroke="#8a94a6" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="525.0" y1="292.0" x2="525.0" y2="343.0" stroke="#c9620f" stroke-width="2" marker-start="url(#a-hi)" marker-end="url(#a-hi)"/>
+<text x="520.0" y="323.5" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#c9620f" text-anchor="end" font-weight="normal">Δh</text>
+<text x="170.0" y="290.0" font-family="Times New Roman, serif" font-style="italic" font-size="24" fill="#10213f" text-anchor="middle" font-weight="normal">Δp = ρv²/2</text>
+<text x="170.0" y="340.0" font-family="Times New Roman, serif" font-style="italic" font-size="24" fill="#c9620f" text-anchor="middle" font-weight="normal">v = √(2Δp/ρ)</text>
+
+</svg>

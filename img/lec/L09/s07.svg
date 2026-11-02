@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<line x1="70" y1="350" x2="520" y2="350" stroke="#10213f" stroke-width="2" marker-end="url(#mK)"/>
+<line x1="80" y1="360" x2="80" y2="40" stroke="#10213f" stroke-width="2" marker-end="url(#mK)"/>
+<text x="512" y="385" class="s" text-anchor="middle" style="font-size:21px;">ε</text>
+<text x="68" y="56" class="s" text-anchor="end" style="font-size:21px;">σ</text>
+<line x1="80" y1="350" x2="470" y2="80" stroke="#2348d0" stroke-width="3"/>
+<line x1="380" y1="350" x2="380" y2="142.308" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="80" y1="142.308" x2="380" y2="142.308" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="380" y="378" class="s" text-anchor="middle" style="font-size:21px;">ε</text>
+<text x="70" y="149.308" class="s" text-anchor="end" style="font-size:21px;">σ</text>
+<path d="M140,350 A60,60 0 0 0 129.332,315.847" fill="none" stroke="#c9620f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="160" y="338" class="s" text-anchor="middle" style="font-size:19px;fill:#c9620f;">α</text>
+<text x="420" y="210" class="s" text-anchor="middle" style="font-size:21px;fill:#2348d0;">σ = Eε</text>
+<text x="250" y="120" class="s" text-anchor="middle" style="font-size:20px;fill:#c9620f;">E = tgα = σ/ε</text>
+</svg>

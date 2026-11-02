@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="Golos Text, Segoe UI, sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker><marker id="a-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker><marker id="a-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a6"/></marker></defs>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<rect x="60.0" y="90.0" width="340.0" height="300.0" rx="0" stroke="none" stroke-width="0" fill="#dbe4fb"/>
+<line x1="60.0" y1="90.0" x2="400.0" y2="90.0" stroke="#2348d0" stroke-width="2.2"/>
+<path d="M 60,40 L 60,400 M 400,400 L 400,40" stroke="#10213f" stroke-width="3" fill="none" />
+<line x1="470.0" y1="400.0" x2="470.0" y2="40.0" stroke="#10213f" stroke-width="2" marker-end="url(#a-ink)"/>
+<text x="484.0" y="52.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#10213f" text-anchor="start" font-weight="normal">z</text>
+<line x1="462.0" y1="90.0" x2="478.0" y2="90.0" stroke="#10213f" stroke-width="2"/>
+<text x="490.0" y="96.0" font-size="17" fill="#10213f" text-anchor="start" font-weight="normal">0</text>
+<text x="110.0" y="78.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#10213f" text-anchor="middle" font-weight="normal">p<tspan dy='5' font-size='72%'>0</tspan></text>
+<rect x="150.0" y="210.0" width="160.0" height="60.0" rx="0" stroke="#c9620f" stroke-width="2.2" fill="#f7dcc4"/>
+<line x1="462.0" y1="210.0" x2="478.0" y2="210.0" stroke="#10213f" stroke-width="1.6"/>
+<line x1="462.0" y1="270.0" x2="478.0" y2="270.0" stroke="#10213f" stroke-width="1.6"/>
+<text x="490.0" y="216.0" font-family="Times New Roman, serif" font-style="italic" font-size="19" fill="#10213f" text-anchor="start" font-weight="normal">z + dz</text>
+<text x="490.0" y="276.0" font-family="Times New Roman, serif" font-style="italic" font-size="19" fill="#10213f" text-anchor="start" font-weight="normal">z</text>
+<line x1="330.0" y1="210.0" x2="330.0" y2="270.0" stroke="#10213f" stroke-width="1.4"/>
+<line x1="324.0" y1="210.0" x2="336.0" y2="210.0" stroke="#10213f" stroke-width="1.4"/>
+<line x1="324.0" y1="270.0" x2="336.0" y2="270.0" stroke="#10213f" stroke-width="1.4"/>
+<text x="342.0" y="246.0" font-family="Times New Roman, serif" font-style="italic" font-size="19" fill="#10213f" text-anchor="start" font-weight="normal">dz</text>
+<line x1="205.0" y1="330.0" x2="205.0" y2="274.0" stroke="#2348d0" stroke-width="3" marker-end="url(#a-acc)"/>
+<text x="210.0" y="352.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#2348d0" text-anchor="middle" font-weight="normal">pS</text>
+<line x1="205.0" y1="150.0" x2="205.0" y2="206.0" stroke="#2348d0" stroke-width="3" marker-end="url(#a-acc)"/>
+<text x="205.0" y="144.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#2348d0" text-anchor="middle" font-weight="normal">(p + dp)S</text>
+<line x1="262.0" y1="240.0" x2="262.0" y2="325.0" stroke="#c9620f" stroke-width="3" marker-end="url(#a-hi)"/>
+<text x="272.0" y="330.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#c9620f" text-anchor="start" font-weight="normal">ρgS dz</text>
+<text x="180.0" y="246.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#10213f" text-anchor="middle" font-weight="normal">S</text>
+
+</svg>

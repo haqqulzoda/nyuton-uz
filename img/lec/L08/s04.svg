@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<rect x="40" y="150" width="480" height="12" rx="0" fill="url(#hatch)" stroke="none" stroke-width="0" />
+<line x1="40" y1="150" x2="520" y2="150" stroke="#10213f" stroke-width="2"/>
+<rect x="80" y="100" width="60" height="50" rx="0" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<rect x="340" y="100" width="60" height="50" rx="0" fill="#e8eefc" stroke="#10213f" stroke-width="2" stroke-dasharray="5 4" />
+<line x1="140" y1="125" x2="210" y2="125" stroke="#c9620f" stroke-width="4" marker-end="url(#mO)"/>
+<text x="200" y="112" class="s" text-anchor="middle" style="font-size:19px;fill:#c9620f;">F = 1 <tspan font-style="normal">N</tspan></text>
+<line x1="110" y1="185" x2="370" y2="185" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)" marker-start="url(#mB)"/>
+<text x="240" y="210" class="s" text-anchor="middle" style="font-size:19px;fill:#2348d0;">s = 1 <tspan font-style="normal">m</tspan></text>
+<text x="470" y="132" class="s" text-anchor="middle" style="font-size:22px;">A = 1 <tspan font-style="normal">J</tspan></text>
+<line x1="40" y1="245" x2="520" y2="245" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="280" y="300" class="n" text-anchor="middle" style="font-size:22px;">1 J = 1 N · 1 m</text>
+<text x="280" y="340" class="n" text-anchor="middle" style="font-size:22px;">1 erg = 1 dyn · 1 cm</text>
+<text x="280" y="385" class="n" text-anchor="middle" style="font-size:24px;fill:#c9620f;">1 J = 10<tspan baseline-shift="super" font-size="16">7</tspan> erg</text>
+</svg>

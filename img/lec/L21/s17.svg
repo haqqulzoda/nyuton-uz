@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="Golos Text, Segoe UI, sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker><marker id="a-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker><marker id="a-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a6"/></marker></defs>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<circle cx="250.0" cy="200.0" r="95.0" stroke="#10213f" stroke-width="2.6" fill="#c9d2e3"/>
+<line x1="25.0" y1="70.0" x2="90.0" y2="70.0" stroke="#2348d0" stroke-width="2.6" marker-end="url(#a-acc)"/>
+<line x1="25.0" y1="200.0" x2="90.0" y2="200.0" stroke="#2348d0" stroke-width="2.6" marker-end="url(#a-acc)"/>
+<line x1="25.0" y1="330.0" x2="90.0" y2="330.0" stroke="#2348d0" stroke-width="2.6" marker-end="url(#a-acc)"/>
+<text x="55.0" y="58.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#2348d0" text-anchor="middle" font-weight="normal">v</text>
+<line x1="131.4" y1="268.5" x2="165.1" y2="249.0" stroke="#2348d0" stroke-width="2.8" marker-end="url(#a-acc)"/>
+<line x1="113.0" y1="200.0" x2="152.0" y2="200.0" stroke="#2348d0" stroke-width="2.8" marker-end="url(#a-acc)"/>
+<line x1="131.4" y1="131.5" x2="165.1" y2="151.0" stroke="#2348d0" stroke-width="2.8" marker-end="url(#a-acc)"/>
+<line x1="358.1" y1="160.7" x2="342.1" y2="166.5" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="365.0" y1="200.0" x2="348.0" y2="200.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="358.1" y1="239.3" x2="342.1" y2="233.5" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="176.2" y1="126.0" x2="208.9" y2="103.0" stroke="#c9620f" stroke-width="2.6" marker-end="url(#a-hi)"/>
+<line x1="232.0" y1="97.0" x2="272.0" y2="97.0" stroke="#c9620f" stroke-width="2.6" marker-end="url(#a-hi)"/>
+<line x1="294.3" y1="105.3" x2="327.1" y2="128.2" stroke="#c9620f" stroke-width="2.6" marker-end="url(#a-hi)"/>
+<line x1="294.3" y1="294.7" x2="327.1" y2="271.8" stroke="#c9620f" stroke-width="2.6" marker-end="url(#a-hi)"/>
+<line x1="232.0" y1="303.0" x2="272.0" y2="303.0" stroke="#c9620f" stroke-width="2.6" marker-end="url(#a-hi)"/>
+<line x1="176.2" y1="274.0" x2="208.9" y2="297.0" stroke="#c9620f" stroke-width="2.6" marker-end="url(#a-hi)"/>
+<text x="250.0" y="67.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#c9620f" text-anchor="middle" font-weight="normal">F<tspan dy='5' font-size='72%'>τ</tspan></text>
+<text x="95.0" y="172.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#2348d0" text-anchor="end" font-weight="normal">p</text>
+<line x1="270.0" y1="200.0" x2="480.0" y2="200.0" stroke="#10213f" stroke-width="4.5" marker-end="url(#a-ink)"/>
+<text x="480.0" y="184.0" font-family="Times New Roman, serif" font-style="italic" font-size="26" fill="#10213f" text-anchor="middle" font-weight="normal">F</text>
+<text x="280.0" y="395.0" font-family="Times New Roman, serif" font-style="italic" font-size="24" fill="#10213f" text-anchor="middle" font-weight="normal">F = F<tspan dy='5' font-size='72%'>p</tspan><tspan dy='-5'> + F</tspan><tspan dy='5' font-size='72%'>τ</tspan></text>
+
+</svg>

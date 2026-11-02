@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="Golos Text, Segoe UI, sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker><marker id="a-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker><marker id="a-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a6"/></marker></defs>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<rect x="60.0" y="80.0" width="380.0" height="240.0" rx="0" stroke="none" stroke-width="0" fill="#dbe4fb"/>
+<line x1="40.0" y1="320.0" x2="470.0" y2="320.0" stroke="#10213f" stroke-width="2"/>
+<line x1="40.0" y1="320.0" x2="32.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="52.0" y1="320.0" x2="44.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="64.0" y1="320.0" x2="56.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="76.0" y1="320.0" x2="68.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="88.0" y1="320.0" x2="80.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="100.0" y1="320.0" x2="92.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="112.0" y1="320.0" x2="104.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="124.0" y1="320.0" x2="116.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="136.0" y1="320.0" x2="128.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="148.0" y1="320.0" x2="140.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="160.0" y1="320.0" x2="152.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="172.0" y1="320.0" x2="164.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="184.0" y1="320.0" x2="176.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="196.0" y1="320.0" x2="188.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="208.0" y1="320.0" x2="200.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="220.0" y1="320.0" x2="212.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="232.0" y1="320.0" x2="224.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="244.0" y1="320.0" x2="236.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="256.0" y1="320.0" x2="248.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="268.0" y1="320.0" x2="260.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="280.0" y1="320.0" x2="272.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="292.0" y1="320.0" x2="284.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="304.0" y1="320.0" x2="296.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="316.0" y1="320.0" x2="308.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="328.0" y1="320.0" x2="320.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="340.0" y1="320.0" x2="332.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="352.0" y1="320.0" x2="344.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="364.0" y1="320.0" x2="356.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="376.0" y1="320.0" x2="368.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="388.0" y1="320.0" x2="380.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="400.0" y1="320.0" x2="392.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="412.0" y1="320.0" x2="404.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="424.0" y1="320.0" x2="416.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="436.0" y1="320.0" x2="428.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="448.0" y1="320.0" x2="440.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="460.0" y1="320.0" x2="452.0" y2="329.0" stroke="#10213f" stroke-width="1.2"/>
+<rect x="60.0" y="62.0" width="380.0" height="18.0" rx="0" stroke="#10213f" stroke-width="2" fill="#9aa7c0"/>
+<line x1="250.0" y1="50.0" x2="350.0" y2="50.0" stroke="#2348d0" stroke-width="3.5" marker-end="url(#a-acc)"/>
+<text x="360.0" y="56.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#2348d0" text-anchor="start" font-weight="normal">v</text>
+<line x1="80.0" y1="290.0" x2="111.2" y2="290.0" stroke="#2348d0" stroke-width="2" marker-end="url(#a-acc)"/>
+<line x1="80.0" y1="260.0" x2="142.5" y2="260.0" stroke="#2348d0" stroke-width="2" marker-end="url(#a-acc)"/>
+<line x1="80.0" y1="230.0" x2="173.8" y2="230.0" stroke="#2348d0" stroke-width="2" marker-end="url(#a-acc)"/>
+<line x1="80.0" y1="200.0" x2="205.0" y2="200.0" stroke="#2348d0" stroke-width="2" marker-end="url(#a-acc)"/>
+<line x1="80.0" y1="170.0" x2="236.2" y2="170.0" stroke="#2348d0" stroke-width="2" marker-end="url(#a-acc)"/>
+<line x1="80.0" y1="140.0" x2="267.5" y2="140.0" stroke="#2348d0" stroke-width="2" marker-end="url(#a-acc)"/>
+<line x1="80.0" y1="110.0" x2="298.8" y2="110.0" stroke="#2348d0" stroke-width="2" marker-end="url(#a-acc)"/>
+<line x1="80.0" y1="320.0" x2="330.0" y2="80.0" stroke="#c9620f" stroke-width="2" stroke-dasharray="6 4"/>
+<line x1="60.0" y1="200.0" x2="440.0" y2="200.0" stroke="#8a94a6" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="60.0" y1="170.0" x2="440.0" y2="170.0" stroke="#8a94a6" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="452.0" y="206.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#10213f" text-anchor="start" font-weight="normal">z</text>
+<text x="452.0" y="176.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#10213f" text-anchor="start" font-weight="normal">z + dz</text>
+<line x1="250.0" y1="192.0" x2="190.0" y2="192.0" stroke="#c9620f" stroke-width="3" marker-end="url(#a-hi)"/>
+<text x="185.0" y="188.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#c9620f" text-anchor="end" font-weight="normal">F</text>
+<line x1="540.0" y1="330.0" x2="540.0" y2="60.0" stroke="#10213f" stroke-width="1.8" marker-end="url(#a-ink)"/>
+<text x="530.0" y="66.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#10213f" text-anchor="end" font-weight="normal">z</text>
+<text x="280.0" y="380.0" font-family="Times New Roman, serif" font-style="italic" font-size="24" fill="#c9620f" text-anchor="middle" font-weight="normal">F = ηS·dv/dz</text>
+
+</svg>

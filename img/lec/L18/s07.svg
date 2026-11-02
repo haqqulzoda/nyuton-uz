@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8499"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#10213f" stroke-width="1.2"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text, Segoe UI, sans-serif";font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#10213f}
+.sb{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#2348d0}
+.so{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#c9620f}
+.f{font-family:"Times New Roman, serif";font-size:19px;fill:#10213f}
+.fo{font-family:"Times New Roman, serif";font-size:19px;fill:#c9620f}
+</style>
+<rect width="560" height="420" fill="#ffffff"/>
+<polyline points="490.0,215.0 489.9,220.3 489.5,225.6 489.0,230.9 488.2,236.2 487.1,241.4 485.8,246.6 484.4,251.8 482.6,256.9 480.7,262.0 478.5,267.0 476.2,271.9 473.6,276.8 470.8,281.6 467.8,286.4 464.5,291.0 461.1,295.5 457.5,300.0 453.7,304.3 449.7,308.6 445.5,312.7 441.2,316.7 436.7,320.6 432.0,324.3 427.1,328.0 422.1,331.4 417.0,334.8 411.7,338.0 406.2,341.0 400.7,343.9 395.0,346.6 389.2,349.2 383.3,351.6 377.3,353.9 371.2,355.9 365.0,357.8 358.7,359.6 352.4,361.1 346.0,362.5 339.5,363.7 333.0,364.7 326.4,365.5 319.9,366.2 313.3,366.6 306.6,366.9 300.0,367.0 293.4,366.9 286.7,366.6 280.1,366.2 273.6,365.5 267.0,364.7 260.5,363.7 254.0,362.5 247.6,361.1 241.3,359.6 235.0,357.8 228.8,355.9 222.7,353.9 216.7,351.6 210.8,349.2 205.0,346.6 199.3,343.9 193.8,341.0 188.3,338.0 183.0,334.8 177.9,331.4 172.9,328.0 168.0,324.3 163.3,320.6 158.8,316.7 154.5,312.7 150.3,308.6 146.3,304.3 142.5,300.0 138.9,295.5 135.5,291.0 132.2,286.4 129.2,281.6 126.4,276.8 123.8,271.9 121.5,267.0 119.3,262.0 117.4,256.9 115.6,251.8 114.2,246.6 112.9,241.4 111.8,236.2 111.0,230.9 110.5,225.6 110.1,220.3 110.0,215.0 110.1,209.7 110.5,204.4 111.0,199.1 111.8,193.8 112.9,188.6 114.2,183.4 115.6,178.2 117.4,173.1 119.3,168.0 121.5,163.0 123.8,158.1 126.4,153.2 129.2,148.4 132.2,143.6 135.5,139.0 138.9,134.5 142.5,130.0 146.3,125.7 150.3,121.4 154.5,117.3 158.8,113.3 163.3,109.4 168.0,105.7 172.9,102.0 177.9,98.6 183.0,95.2 188.3,92.0 193.8,89.0 199.3,86.1 205.0,83.4 210.8,80.8 216.7,78.4 222.7,76.1 228.8,74.1 235.0,72.2 241.3,70.4 247.6,68.9 254.0,67.5 260.5,66.3 267.0,65.3 273.6,64.5 280.1,63.8 286.7,63.4 293.4,63.1 300.0,63.0 306.6,63.1 313.3,63.4 319.9,63.8 326.4,64.5 333.0,65.3 339.5,66.3 346.0,67.5 352.4,68.9 358.7,70.4 365.0,72.2 371.2,74.1 377.3,76.1 383.3,78.4 389.2,80.8 395.0,83.4 400.7,86.1 406.2,89.0 411.7,92.0 417.0,95.2 422.1,98.6 427.1,102.0 432.0,105.7 436.7,109.4 441.2,113.3 445.5,117.3 449.7,121.4 453.7,125.7 457.5,130.0 461.1,134.5 464.5,139.0 467.8,143.6 470.8,148.4 473.6,153.2 476.2,158.1 478.5,163.0 480.7,168.0 482.6,173.1 484.4,178.2 485.8,183.4 487.1,188.6 488.2,193.8 489.0,199.1 489.5,204.4 489.9,209.7 490.0,215.0" stroke="#10213f" fill="none" stroke-width="2.4" stroke-linejoin="round"/>
+<line x1="100.0" y1="215.0" x2="505.0" y2="215.0" stroke="#7a8499" stroke-width="1.2" stroke-dasharray="6 4"/>
+<circle cx="414.0" cy="215.0" r="5.0" stroke="#10213f" fill="#10213f" stroke-width="2"/>
+<text x="406.0" y="241.0" class="s" text-anchor="start">F</text>
+<line x1="414.0" y1="215.0" x2="414.0" y2="93.4" stroke="#c9620f" stroke-width="2.2"/>
+<text x="422.0" y="154.2" class="so" text-anchor="start">p</text>
+<line x1="414.0" y1="215.0" x2="361.7" y2="71.2" stroke="#2348d0" stroke-width="2.8" marker-end="url(#ab)"/>
+<circle cx="361.7" cy="71.2" r="6.0" stroke="#10213f" fill="#2348d0" stroke-width="1.5"/>
+<text x="361.8" y="153.1" class="sb" text-anchor="start">r</text>
+<polyline points="448.0,215.0 447.9,212.8 447.7,210.7 447.4,208.5 446.9,206.4 446.3,204.3 445.5,202.3 444.6,200.3 443.6,198.3 442.5,196.5 441.3,194.7 439.9,193.0 438.5,191.4 436.9,189.9 435.2,188.5 433.5,187.1 431.7,186.0 429.8,184.9 427.8,183.9 425.8,183.1 423.8,182.4 421.6,181.9 419.5,181.5 417.4,181.2 415.2,181.0 413.0,181.0 410.8,181.1 408.7,181.4 406.5,181.8 404.4,182.4 402.4,183.1" stroke="#10213f" fill="none" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="444.0" y="181.0" class="s" text-anchor="start">φ</text>
+<circle cx="490.0" cy="215.0" r="4.0" stroke="#10213f" fill="#10213f" stroke-width="2"/>
+<circle cx="110.0" cy="215.0" r="4.0" stroke="#10213f" fill="#10213f" stroke-width="2"/>
+<line x1="414.0" y1="393.0" x2="490.0" y2="393.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="414.0" y1="385.0" x2="414.0" y2="401.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="490.0" y1="385.0" x2="490.0" y2="401.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="110.0" y1="393.0" x2="414.0" y2="393.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="110.0" y1="385.0" x2="110.0" y2="401.0" stroke="#10213f" stroke-width="1.2"/>
+<text x="452.0" y="385.0" class="s" text-anchor="middle">r<tspan font-size="14" dy="5" font-style="normal">p</tspan><tspan dy="-5"> </tspan></text>
+<text x="262.0" y="385.0" class="s" text-anchor="middle">r<tspan font-size="14" dy="5" font-style="normal">a</tspan><tspan dy="-5"> </tspan></text>
+<line x1="490.0" y1="215.0" x2="490.0" y2="393.0" stroke="#7a8499" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="110.0" y1="215.0" x2="110.0" y2="393.0" stroke="#7a8499" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="414.0" y1="215.0" x2="414.0" y2="393.0" stroke="#7a8499" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="30.0" y="40.0" class="f" text-anchor="start">r = p / (1 + e cos φ)</text>
+</svg>

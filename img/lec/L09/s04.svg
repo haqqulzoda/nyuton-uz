@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<rect x="30" y="150" width="44" height="44" rx="4" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<text x="52" y="179" class="s" text-anchor="middle" style="font-size:19px;">m</text>
+<path d="M74,172 L77.3333,172 L80.6667,180 L84,164 L87.3333,180 L90.6667,164 L94,180 L97.3333,164 L100.667,180 L104,164 L107.333,180 L110.667,164 L114,172" fill="none" stroke="#10213f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="94" y="235" class="s" text-anchor="middle" style="font-size:18px;fill:#c9620f;">F/5</text>
+<rect x="114" y="150" width="44" height="44" rx="4" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<text x="136" y="179" class="s" text-anchor="middle" style="font-size:19px;">m</text>
+<path d="M158,172 L162.583,172 L167.167,180 L171.75,164 L176.333,180 L180.917,164 L185.5,180 L190.083,164 L194.667,180 L199.25,164 L203.833,180 L208.417,164 L213,172" fill="none" stroke="#10213f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="185.5" y="235" class="s" text-anchor="middle" style="font-size:18px;fill:#c9620f;">2F/5</text>
+<rect x="213" y="150" width="44" height="44" rx="4" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<text x="235" y="179" class="s" text-anchor="middle" style="font-size:19px;">m</text>
+<path d="M257,172 L262.833,172 L268.667,180 L274.5,164 L280.333,180 L286.167,164 L292,180 L297.833,164 L303.667,180 L309.5,164 L315.333,180 L321.167,164 L327,172" fill="none" stroke="#10213f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="292" y="235" class="s" text-anchor="middle" style="font-size:18px;fill:#c9620f;">3F/5</text>
+<rect x="327" y="150" width="44" height="44" rx="4" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<text x="349" y="179" class="s" text-anchor="middle" style="font-size:19px;">m</text>
+<path d="M371,172 L378.083,172 L385.167,180 L392.25,164 L399.333,180 L406.417,164 L413.5,180 L420.583,164 L427.667,180 L434.75,164 L441.833,180 L448.917,164 L456,172" fill="none" stroke="#10213f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="413.5" y="235" class="s" text-anchor="middle" style="font-size:18px;fill:#c9620f;">4F/5</text>
+<rect x="456" y="150" width="44" height="44" rx="4" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<text x="478" y="179" class="s" text-anchor="middle" style="font-size:19px;">m</text>
+<line x1="500" y1="172" x2="550" y2="172" stroke="#c9620f" stroke-width="4" marker-end="url(#mO)"/>
+<text x="526" y="156" class="s" text-anchor="middle" style="font-size:21px;fill:#c9620f;">F</text>
+<line x1="180" y1="300" x2="300" y2="300" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)"/>
+<text x="240" y="325" class="s" text-anchor="middle" style="font-size:21px;fill:#2348d0;">a</text>
+<text x="280" y="385" class="s" text-anchor="middle" style="font-size:21px;">T<tspan baseline-shift="sub" font-size="14">k</tspan> = kF/n</text>
+</svg>

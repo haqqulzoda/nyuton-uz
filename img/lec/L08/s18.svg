@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<text x="280" y="38" class="s" text-anchor="middle" style="font-size:19px;">m<tspan baseline-shift="sub" font-size="14">1</tspan> = m<tspan baseline-shift="sub" font-size="14">2</tspan></text>
+<line x1="20" y1="126" x2="250" y2="126" stroke="#9aa6bd" stroke-width="1.5"/>
+<line x1="310" y1="126" x2="540" y2="126" stroke="#9aa6bd" stroke-width="1.5"/>
+<circle cx="80" cy="100" r="26" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<circle cx="190" cy="100" r="26" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<line x1="110" y1="100" x2="160" y2="100" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)"/>
+<text x="280" y="116" class="n" text-anchor="middle" style="font-size:26px;">⇒</text>
+<circle cx="370" cy="100" r="26" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<circle cx="470" cy="100" r="26" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<line x1="498" y1="100" x2="530" y2="100" stroke="#c9620f" stroke-width="3" marker-end="url(#mO)"/>
+<text x="280" y="158" class="s" text-anchor="middle" style="font-size:19px;">m<tspan baseline-shift="sub" font-size="14">1</tspan> ≪ m<tspan baseline-shift="sub" font-size="14">2</tspan></text>
+<line x1="20" y1="246" x2="250" y2="246" stroke="#9aa6bd" stroke-width="1.5"/>
+<line x1="310" y1="246" x2="540" y2="246" stroke="#9aa6bd" stroke-width="1.5"/>
+<circle cx="80" cy="232" r="14" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<circle cx="190" cy="212" r="34" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<line x1="98" y1="232" x2="148" y2="232" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)"/>
+<text x="280" y="236" class="n" text-anchor="middle" style="font-size:26px;">⇒</text>
+<circle cx="370" cy="232" r="14" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<circle cx="470" cy="212" r="34" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<line x1="354" y1="232" x2="309" y2="232" stroke="#c9620f" stroke-width="3" marker-end="url(#mO)"/>
+<text x="280" y="278" class="s" text-anchor="middle" style="font-size:19px;">m<tspan baseline-shift="sub" font-size="14">1</tspan> ≫ m<tspan baseline-shift="sub" font-size="14">2</tspan></text>
+<line x1="20" y1="366" x2="250" y2="366" stroke="#9aa6bd" stroke-width="1.5"/>
+<line x1="310" y1="366" x2="540" y2="366" stroke="#9aa6bd" stroke-width="1.5"/>
+<circle cx="80" cy="332" r="34" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<circle cx="190" cy="352" r="14" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<line x1="118" y1="332" x2="168" y2="332" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)"/>
+<text x="280" y="356" class="n" text-anchor="middle" style="font-size:26px;">⇒</text>
+<circle cx="370" cy="332" r="34" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<circle cx="470" cy="352" r="14" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<line x1="406" y1="332" x2="446.5" y2="332" stroke="#c9620f" stroke-width="3" marker-end="url(#mO)"/>
+<line x1="486" y1="352" x2="546.8" y2="352" stroke="#c9620f" stroke-width="3" marker-end="url(#mO)"/>
+<text x="130" y="400" class="s" text-anchor="middle" style="font-size:19px;">v<tspan baseline-shift="sub" font-size="14">2</tspan> = 0</text>
+<text x="430" y="400" class="s" text-anchor="middle" style="font-size:19px;fill:#c9620f;">v<tspan baseline-shift="sub" font-size="14">1</tspan>′ , v<tspan baseline-shift="sub" font-size="14">2</tspan>′</text>
+</svg>

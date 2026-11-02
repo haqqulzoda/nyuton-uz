@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<line x1="70" y1="360" x2="520" y2="360" stroke="#10213f" stroke-width="2" marker-end="url(#mK)"/>
+<line x1="80" y1="370" x2="80" y2="40" stroke="#10213f" stroke-width="2" marker-end="url(#mK)"/>
+<text x="512" y="390" class="s" text-anchor="middle" style="font-size:21px;">v</text>
+<text x="70" y="54" class="s" text-anchor="end" style="font-size:21px;">E<tspan baseline-shift="sub" font-size="14">k</tspan></text>
+<path d="M80.0,360.0 L81.9,360.0 L83.8,360.0 L85.7,359.9 L87.6,359.9 L89.5,359.8 L91.4,359.7 L93.4,359.6 L95.3,359.5 L97.2,359.4 L99.1,359.2 L101.0,359.1 L102.9,358.9 L104.8,358.7 L106.7,358.5 L108.6,358.3 L110.5,358.0 L112.4,357.8 L114.3,357.5 L116.3,357.2 L118.2,356.9 L120.1,356.6 L122.0,356.3 L123.9,356.0 L125.8,355.6 L127.7,355.2 L129.6,354.8 L131.5,354.4 L133.4,354.0 L135.3,353.6 L137.2,353.1 L139.1,352.7 L141.1,352.2 L143.0,351.7 L144.9,351.2 L146.8,350.6 L148.7,350.1 L150.6,349.5 L152.5,349.0 L154.4,348.4 L156.3,347.8 L158.2,347.2 L160.1,346.5 L162.0,345.9 L164.0,345.2 L165.9,344.5 L167.8,343.8 L169.7,343.1 L171.6,342.4 L173.5,341.7 L175.4,340.9 L177.3,340.1 L179.2,339.3 L181.1,338.5 L183.0,337.7 L184.9,336.9 L186.8,336.0 L188.8,335.2 L190.7,334.3 L192.6,333.4 L194.5,332.5 L196.4,331.6 L198.3,330.6 L200.2,329.7 L202.1,328.7 L204.0,327.7 L205.9,326.7 L207.8,325.7 L209.7,324.7 L211.7,323.6 L213.6,322.6 L215.5,321.5 L217.4,320.4 L219.3,319.3 L221.2,318.2 L223.1,317.0 L225.0,315.9 L226.9,314.7 L228.8,313.5 L230.7,312.3 L232.6,311.1 L234.5,309.9 L236.5,308.6 L238.4,307.4 L240.3,306.1 L242.2,304.8 L244.1,303.5 L246.0,302.2 L247.9,300.8 L249.8,299.5 L251.7,298.1 L253.6,296.7 L255.5,295.3 L257.4,293.9 L259.4,292.5 L261.3,291.0 L263.2,289.6 L265.1,288.1 L267.0,286.6 L268.9,285.1 L270.8,283.6 L272.7,282.1 L274.6,280.5 L276.5,278.9 L278.4,277.4 L280.3,275.8 L282.2,274.2 L284.2,272.5 L286.1,270.9 L288.0,269.2 L289.9,267.6 L291.8,265.9 L293.7,264.2 L295.6,262.4 L297.5,260.7 L299.4,259.0 L301.3,257.2 L303.2,255.4 L305.1,253.6 L307.1,251.8 L309.0,250.0 L310.9,248.1 L312.8,246.3 L314.7,244.4 L316.6,242.5 L318.5,240.6 L320.4,238.7 L322.3,236.8 L324.2,234.8 L326.1,232.9 L328.0,230.9 L329.9,228.9 L331.9,226.9 L333.8,224.8 L335.7,222.8 L337.6,220.8 L339.5,218.7 L341.4,216.6 L343.3,214.5 L345.2,212.4 L347.1,210.2 L349.0,208.1 L350.9,205.9 L352.8,203.8 L354.8,201.6 L356.7,199.4 L358.6,197.1 L360.5,194.9 L362.4,192.6 L364.3,190.4 L366.2,188.1 L368.1,185.8 L370.0,183.5 L371.9,181.1 L373.8,178.8 L375.7,176.4 L377.6,174.1 L379.6,171.7 L381.5,169.3 L383.4,166.8 L385.3,164.4 L387.2,162.0 L389.1,159.5 L391.0,157.0 L392.9,154.5 L394.8,152.0 L396.7,149.5 L398.6,146.9 L400.5,144.4 L402.5,141.8 L404.4,139.2 L406.3,136.6 L408.2,134.0 L410.1,131.3 L412.0,128.7 L413.9,126.0 L415.8,123.3 L417.7,120.6 L419.6,117.9 L421.5,115.2 L423.4,112.4 L425.3,109.7 L427.3,106.9 L429.2,104.1 L431.1,101.3 L433.0,98.5 L434.9,95.7 L436.8,92.8 L438.7,90.0 L440.6,87.1 L442.5,84.2 L444.4,81.3 L446.3,78.3 L448.2,75.4 L450.2,72.4 L452.1,69.5 L454.0,66.5 L455.9,63.5 L457.8,60.5 L459.7,57.4 L461.6,54.4" fill="none" stroke="#2348d0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="260" y1="360" x2="260" y2="292" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="80" y1="292" x2="260" y2="292" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="260" cy="292" r="5" fill="#c9620f" stroke="#c9620f" stroke-width="2"/>
+<text x="260" y="388" class="s" text-anchor="middle" style="font-size:21px;">v</text>
+<text x="70" y="299" class="s" text-anchor="end" style="font-size:21px;fill:#c9620f;">E</text>
+<line x1="440" y1="360" x2="440" y2="88" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="80" y1="88" x2="440" y2="88" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="5 4"/>
+<circle cx="440" cy="88" r="5" fill="#c9620f" stroke="#c9620f" stroke-width="2"/>
+<text x="440" y="388" class="s" text-anchor="middle" style="font-size:21px;">2v</text>
+<text x="70" y="95" class="s" text-anchor="end" style="font-size:21px;fill:#c9620f;">4E</text>
+<text x="400" y="300" class="s" text-anchor="middle" style="font-size:21px;fill:#2348d0;">E<tspan baseline-shift="sub" font-size="14">k</tspan> = mv<tspan baseline-shift="super" font-size="14">2</tspan>/2</text>
+</svg>

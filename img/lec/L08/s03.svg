@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<rect x="20" y="260" width="520" height="12" rx="0" fill="url(#hatch)" stroke="none" stroke-width="0" />
+<line x1="20" y1="260" x2="540" y2="260" stroke="#10213f" stroke-width="2"/>
+<rect x="60" y="150" width="170" height="80" rx="4" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<circle cx="95" cy="245" r="15" fill="#ffffff" stroke="#10213f" stroke-width="2"/>
+<circle cx="195" cy="245" r="15" fill="#ffffff" stroke="#10213f" stroke-width="2"/>
+<line x1="230" y1="205" x2="280" y2="205" stroke="#10213f" stroke-width="4"/>
+<rect x="280" y="140" width="120" height="90" rx="4" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<rect x="400" y="170" width="110" height="60" rx="4" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<rect x="440" y="130" width="22" height="40" rx="0" fill="#e8eefc" stroke="#10213f" stroke-width="2" />
+<rect x="290" y="155" width="40" height="35" rx="0" fill="#ffffff" stroke="#10213f" stroke-width="2" />
+<circle cx="320" cy="245" r="15" fill="#ffffff" stroke="#10213f" stroke-width="2"/>
+<circle cx="380" cy="245" r="15" fill="#ffffff" stroke="#10213f" stroke-width="2"/>
+<circle cx="470" cy="245" r="15" fill="#ffffff" stroke="#10213f" stroke-width="2"/>
+<path d="M451,128 q-10,-15 5,-25 q15,-10 5,-25" fill="none" stroke="#9aa6bd" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="232" y1="185" x2="300" y2="185" stroke="#c9620f" stroke-width="4" marker-end="url(#mO)"/>
+<text x="266" y="172" class="s" text-anchor="middle" style="font-size:21px;fill:#c9620f;">F</text>
+<line x1="60" y1="190" x2="10" y2="190" stroke="#10213f" stroke-width="3" marker-end="url(#mK)"/>
+<text x="34" y="178" class="s" text-anchor="middle" style="font-size:21px;">−F</text>
+<line x1="380" y1="105" x2="460" y2="105" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)"/>
+<text x="400" y="95" class="s" text-anchor="middle" style="font-size:21px;fill:#2348d0;">v</text>
+<line x1="60" y1="320" x2="300" y2="320" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)" marker-start="url(#mB)"/>
+<text x="180" y="310" class="s" text-anchor="middle" style="font-size:21px;fill:#2348d0;">s</text>
+<text x="280" y="385" class="s" text-anchor="middle" style="font-size:24px;fill:#c9620f;">A = F s</text>
+</svg>

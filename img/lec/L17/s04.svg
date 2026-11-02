@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8499"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#10213f" stroke-width="1.2"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text, Segoe UI, sans-serif";font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#10213f}
+.sb{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#2348d0}
+.so{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#c9620f}
+.f{font-family:"Times New Roman, serif";font-size:19px;fill:#10213f}
+.fo{font-family:"Times New Roman, serif";font-size:19px;fill:#c9620f}
+</style>
+<rect width="560" height="420" fill="#ffffff"/>
+<polygon points="249.3,220.0 247.8,244.7 240.4,267.5 230.5,287.9 219.7,307.0 207.1,324.0 191.4,335.7 173.4,339.2 155.7,335.5 140.0,330.0 125.3,328.7 108.4,332.8 88.0,337.2 66.4,334.0 49.2,319.0 40.8,294.4 41.1,266.8 45.5,241.7 49.3,220.0 50.9,199.6 52.4,178.6 57.3,157.9 66.5,139.8 78.5,124.8 91.4,110.5 105.0,94.9 120.9,79.4 140.0,70.0 160.0,72.6 176.8,88.5 188.0,112.0 195.0,134.8 202.4,151.9 214.1,164.4 229.0,177.9 242.5,196.5" stroke="#10213f" fill="#e8edfb" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="519.4,210.0 519.2,230.4 515.9,250.5 507.4,267.9 494.1,279.6 478.9,285.5 465.3,289.2 454.3,296.3 443.5,309.0 430.0,323.7 413.2,333.1 395.9,331.4 381.7,318.3 372.3,298.9 366.4,279.0 361.2,261.4 355.5,245.1 350.8,228.1 349.4,210.0 351.8,192.2 356.2,175.2 360.2,157.9 363.9,138.2 369.7,116.9 380.3,98.7 396.1,89.6 414.0,92.3 430.0,103.7 442.7,116.4 454.0,124.7 466.7,127.8 481.6,130.4 496.7,137.6 508.4,151.4 515.2,169.9 518.2,189.9" stroke="#10213f" fill="#e8edfb" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="166" y="151" width="18" height="18" fill="#fbeee2" stroke="#c9620f" stroke-width="2"/>
+<rect x="386" y="246" width="18" height="18" fill="#fbeee2" stroke="#c9620f" stroke-width="2"/>
+<line x1="175.0" y1="160.0" x2="395.0" y2="255.0" stroke="#7a8499" stroke-width="1.4" stroke-dasharray="6 4"/>
+<line x1="185.0" y1="163.0" x2="260.0" y2="194.0" stroke="#c9620f" stroke-width="2.6" marker-end="url(#ao)"/>
+<line x1="385.0" y1="252.0" x2="310.0" y2="221.0" stroke="#c9620f" stroke-width="2.6" marker-end="url(#ao)"/>
+<text x="131.0" y="142.0" class="s" text-anchor="start">Δm<tspan font-size="14" dy="5" font-style="normal">i</tspan><tspan dy="-5"> </tspan></text>
+<text x="405.0" y="289.0" class="s" text-anchor="start">Δm<tspan font-size="14" dy="5" font-style="normal">k</tspan><tspan dy="-5"> </tspan></text>
+<text x="245.0" y="168.0" class="so" text-anchor="start">F<tspan font-size="14" dy="5" font-style="normal">ik</tspan><tspan dy="-5"> </tspan></text>
+<text x="290.0" y="259.0" class="so" text-anchor="start">F<tspan font-size="14" dy="5" font-style="normal">ki</tspan><tspan dy="-5"> </tspan></text>
+<text x="285.0" y="190.0" class="s" text-anchor="start">r<tspan font-size="14" dy="5" font-style="normal">ik</tspan><tspan dy="-5"> </tspan></text>
+<text x="280.0" y="400.0" class="f" text-anchor="middle">F = ΣΣ F<tspan font-size="14" dy="5" font-style="normal">ik</tspan><tspan dy="-5"> </tspan></text>
+</svg>

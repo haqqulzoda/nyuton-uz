@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="Golos Text, Segoe UI, sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker><marker id="a-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker><marker id="a-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a6"/></marker></defs>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<rect x="40.0" y="60.0" width="200.0" height="330.0" rx="0" stroke="none" stroke-width="0" fill="#dbe4fb"/>
+<path d="M 40,30 L 40,390 L 240,390 L 240,30" stroke="#10213f" stroke-width="3" fill="none" />
+<line x1="40.0" y1="60.0" x2="240.0" y2="60.0" stroke="#2348d0" stroke-width="2"/>
+<circle cx="140.0" cy="210.0" r="22.0" stroke="#10213f" stroke-width="2.4" fill="#9aa7c0"/>
+<line x1="140.0" y1="234.0" x2="140.0" y2="330.0" stroke="#10213f" stroke-width="3.5" marker-end="url(#a-ink)"/>
+<text x="150.0" y="328.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#10213f" text-anchor="start" font-weight="normal">mg</text>
+<line x1="128.0" y1="186.0" x2="128.0" y2="125.0" stroke="#2348d0" stroke-width="3" marker-end="url(#a-acc)"/>
+<text x="114.0" y="144.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#2348d0" text-anchor="end" font-weight="normal">F<tspan dy='5' font-size='72%'>A</tspan></text>
+<line x1="152.0" y1="186.0" x2="152.0" y2="105.0" stroke="#c9620f" stroke-width="3" marker-end="url(#a-hi)"/>
+<text x="160.0" y="116.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#c9620f" text-anchor="start" font-weight="normal">6πηrv</text>
+<line x1="215.0" y1="160.0" x2="215.0" y2="250.0" stroke="#8a94a6" stroke-width="2" marker-end="url(#a-grey)"/>
+<text x="205.0" y="270.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#8a94a6" text-anchor="end" font-weight="normal">v</text>
+<line x1="300.0" y1="330.0" x2="540.0" y2="330.0" stroke="#10213f" stroke-width="1.8" marker-end="url(#a-ink)"/>
+<line x1="300.0" y1="330.0" x2="300.0" y2="80.0" stroke="#10213f" stroke-width="1.8" marker-end="url(#a-ink)"/>
+<text x="536.0" y="354.0" font-family="Times New Roman, serif" font-style="italic" font-size="18" fill="#10213f" text-anchor="end" font-weight="normal">t</text>
+<text x="290.0" y="88.0" font-family="Times New Roman, serif" font-style="italic" font-size="18" fill="#10213f" text-anchor="end" font-weight="normal">v</text>
+<line x1="300.0" y1="160.0" x2="535.0" y2="160.0" stroke="#c9620f" stroke-width="1.6" stroke-dasharray="6 5"/>
+<text x="292.0" y="167.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#c9620f" text-anchor="end" font-weight="normal">v<tspan dy='5' font-size='72%'>∞</tspan></text>
+<line x1="300.0" y1="330.0" x2="345.0" y2="160.0" stroke="#2348d0" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="345.0" y1="160.0" x2="345.0" y2="330.0" stroke="#8a94a6" stroke-width="1.2" stroke-dasharray="3 4"/>
+<text x="345.0" y="354.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#10213f" text-anchor="middle" font-weight="normal">τ</text>
+<path d="M300.0,330.0 L303.0,319.0 L306.0,308.8 L309.0,299.2 L312.0,290.2 L315.0,281.8 L318.0,274.0 L321.0,266.6 L324.0,259.7 L327.0,253.3 L330.0,247.3 L333.0,241.7 L336.0,236.4 L339.0,231.5 L342.0,226.9 L345.0,222.5 L348.0,218.5 L351.0,214.7 L354.0,211.2 L357.0,207.9 L360.0,204.8 L363.0,201.9 L366.0,199.2 L369.0,196.7 L372.0,194.3 L375.0,192.1 L378.0,190.0 L381.0,188.1 L384.0,186.3 L387.0,184.6 L390.0,183.0 L393.0,181.5 L396.0,180.1 L399.0,178.8 L402.0,177.6 L405.0,176.5 L408.0,175.4 L411.0,174.4 L414.0,173.5 L417.0,172.6 L420.0,171.8 L423.0,171.1 L426.0,170.3 L429.0,169.7 L432.0,169.0 L435.0,168.5 L438.0,167.9 L441.0,167.4 L444.0,166.9 L447.0,166.5 L450.0,166.1 L453.0,165.7 L456.0,165.3 L459.0,165.0 L462.0,164.6 L465.0,164.3 L468.0,164.1 L471.0,163.8 L474.0,163.6 L477.0,163.3 L480.0,163.1 L483.0,162.9 L486.0,162.7 L489.0,162.5 L492.0,162.4 L495.0,162.2 L498.0,162.1 L501.0,162.0 L504.0,161.8 L507.0,161.7 L510.0,161.6 L513.0,161.5 L516.0,161.4 L519.0,161.3 L522.0,161.2 L525.0,161.1" stroke="#2348d0" stroke-width="3.5" fill="none" stroke-linejoin="round"/>
+
+</svg>

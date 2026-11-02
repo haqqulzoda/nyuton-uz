@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8499"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#10213f" stroke-width="1.2"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text, Segoe UI, sans-serif";font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#10213f}
+.sb{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#2348d0}
+.so{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#c9620f}
+.f{font-family:"Times New Roman, serif";font-size:19px;fill:#10213f}
+.fo{font-family:"Times New Roman, serif";font-size:19px;fill:#c9620f}
+</style>
+<rect width="560" height="420" fill="#ffffff"/>
+<circle cx="190.0" cy="215.0" r="70.0" stroke="#7a8499" fill="none" stroke-width="1.6" stroke-dasharray="7 5"/>
+<circle cx="190.0" cy="215.0" r="155.0" stroke="#7a8499" fill="none" stroke-width="1.6" stroke-dasharray="7 5"/>
+<circle cx="190.0" cy="215.0" r="14.0" stroke="#c9620f" fill="#ffd27a" stroke-width="2"/>
+<line x1="207.0" y1="215.0" x2="213.0" y2="215.0" stroke="#c9620f" stroke-width="2"/>
+<line x1="202.0" y1="227.0" x2="206.3" y2="231.3" stroke="#c9620f" stroke-width="2"/>
+<line x1="190.0" y1="232.0" x2="190.0" y2="238.0" stroke="#c9620f" stroke-width="2"/>
+<line x1="178.0" y1="227.0" x2="173.7" y2="231.3" stroke="#c9620f" stroke-width="2"/>
+<line x1="173.0" y1="215.0" x2="167.0" y2="215.0" stroke="#c9620f" stroke-width="2"/>
+<line x1="178.0" y1="203.0" x2="173.7" y2="198.7" stroke="#c9620f" stroke-width="2"/>
+<line x1="190.0" y1="198.0" x2="190.0" y2="192.0" stroke="#c9620f" stroke-width="2"/>
+<line x1="202.0" y1="203.0" x2="206.3" y2="198.7" stroke="#c9620f" stroke-width="2"/>
+<circle cx="260.0" cy="215.0" r="8.0" stroke="#10213f" fill="#2348d0" stroke-width="1.5"/>
+<circle cx="289.6" cy="96.3" r="11.0" stroke="#10213f" fill="#2348d0" stroke-width="1.5"/>
+<line x1="190.0" y1="215.0" x2="260.0" y2="215.0" stroke="#10213f" stroke-width="1.2"/>
+<text x="216.0" y="239.0" class="s" text-anchor="start">r₁</text>
+<line x1="190.0" y1="215.0" x2="289.6" y2="96.3" stroke="#10213f" stroke-width="1.2"/>
+<text x="226.0" y="145.0" class="s" text-anchor="start">r₂</text>
+<polyline points="235.0,292.9 236.8,291.9 238.6,290.8 240.3,289.6 242.0,288.4 243.7,287.2 245.4,285.9 247.0,284.6 248.6,283.3 250.2,281.9 251.8,280.5 253.3,279.0 254.7,277.5 256.2,276.0 257.6,274.4 258.9,272.9 260.3,271.2 261.6,269.6 262.8,267.9 264.0,266.2 265.2,264.5 266.3,262.7 267.4,260.9 268.5,259.1 269.5,257.3 270.4,255.4 271.3,253.5 272.2,251.6 273.0,249.7 273.8,247.7 274.6,245.8" stroke="#c9620f" fill="none" stroke-width="2" marker-end="url(#ao)"/>
+<text x="250.0" y="305.0" class="so" text-anchor="start">T₁</text>
+<polyline points="249.9,379.4 253.2,378.2 256.5,376.9 259.8,375.5 263.0,374.0 266.3,372.5 269.4,370.9 272.6,369.3 275.7,367.6 278.8,365.8 281.9,363.9 284.9,362.0 287.9,360.1 290.8,358.1 293.7,356.0 296.5,353.8 299.3,351.6 302.1,349.4 304.8,347.1 307.5,344.7 310.1,342.3 312.7,339.8 315.2,337.3 317.6,334.7 320.1,332.1 322.4,329.4 324.7,326.7 327.0,323.9 329.1,321.1 331.3,318.3 333.4,315.4" stroke="#c9620f" fill="none" stroke-width="2" marker-end="url(#ao)"/>
+<text x="330.0" y="365.0" class="so" text-anchor="start">T₂</text>
+<text x="370.0" y="150.0" class="f" text-anchor="start">T² / r³ = 4π² / GM</text>
+<text x="370.0" y="220.0" class="fo" text-anchor="start">T₁² / T₂² = r₁³ / r₂³</text>
+</svg>

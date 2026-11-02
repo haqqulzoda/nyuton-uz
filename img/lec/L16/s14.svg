@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8499"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#10213f" stroke-width="1.2"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text, Segoe UI, sans-serif";font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#10213f}
+.sb{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#2348d0}
+.so{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#c9620f}
+.f{font-family:"Times New Roman, serif";font-size:19px;fill:#10213f}
+.fo{font-family:"Times New Roman, serif";font-size:19px;fill:#c9620f}
+</style>
+<rect width="560" height="420" fill="#ffffff"/>
+<line x1="200.0" y1="390.0" x2="200.0" y2="208.0" stroke="#10213f" stroke-width="5"/>
+<line x1="140.0" y1="390.0" x2="260.0" y2="390.0" stroke="#10213f" stroke-width="4"/>
+<line x1="200.0" y1="200.0" x2="200.0" y2="60.0" stroke="#7a8499" stroke-width="1.5" stroke-dasharray="7 5"/>
+<polyline points="171.8,93.1 174.2,94.6 177.5,95.9 181.5,97.1 186.2,98.0 191.4,98.6 196.9,99.0 202.4,99.0 207.9,98.7 213.2,98.1 217.9,97.2 222.1,96.1 225.4,94.8 227.9,93.3 229.5,91.7 230.0,90.0 229.5,88.3 227.9,86.7 225.4,85.2 222.1,83.9 217.9,82.8 213.2,81.9 207.9,81.3 202.4,81.0 196.9,81.0 191.4,81.4 186.2,82.0 181.5,82.9 177.5,84.1 174.2,85.4 171.8,86.9" stroke="#c9620f" fill="none" stroke-width="2.2" marker-end="url(#ao)"/>
+<text x="236.0" y="86.0" class="so" text-anchor="start">Ω</text>
+<line x1="80.0" y1="200.0" x2="440.0" y2="200.0" stroke="#10213f" stroke-width="5"/>
+<rect x="62" y="178" width="36" height="44" fill="#e8edfb" stroke="#10213f" stroke-width="2"/>
+<ellipse cx="330" cy="200" rx="16" ry="72" fill="#e8edfb" stroke="#10213f" stroke-width="2.4"/>
+<circle cx="200.0" cy="200.0" r="6.0" stroke="#10213f" fill="#fff" stroke-width="2"/>
+<text x="176.0" y="188.0" class="s" text-anchor="start">O</text>
+<line x1="445.0" y1="200.0" x2="535.0" y2="200.0" stroke="#2348d0" stroke-width="3" marker-end="url(#ab)"/>
+<text x="470.0" y="186.0" class="sb" text-anchor="start">L = Iω</text>
+<line x1="400.0" y1="200.0" x2="400.0" y2="270.0" stroke="#10213f" stroke-width="1.5"/>
+<rect x="384" y="270" width="32" height="30" fill="#fbeee2" stroke="#10213f" stroke-width="2"/>
+<text x="422.0" y="292.0" class="s" text-anchor="start">m</text>
+<line x1="400.0" y1="300.0" x2="400.0" y2="360.0" stroke="#c9620f" stroke-width="2.6" marker-end="url(#ao)"/>
+<text x="410.0" y="360.0" class="so" text-anchor="start">mg</text>
+<line x1="200.0" y1="150.0" x2="400.0" y2="150.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="200.0" y1="142.0" x2="200.0" y2="158.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="400.0" y1="142.0" x2="400.0" y2="158.0" stroke="#10213f" stroke-width="1.2"/>
+<text x="300.0" y="142.0" class="s" text-anchor="middle">l</text>
+<text x="300.0" y="405.0" class="f" text-anchor="start">Ω = mgl / (Iω)</text>
+</svg>

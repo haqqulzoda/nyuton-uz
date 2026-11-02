@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8499"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#10213f" stroke-width="1.2"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text, Segoe UI, sans-serif";font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#10213f}
+.sb{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#2348d0}
+.so{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#c9620f}
+.f{font-family:"Times New Roman, serif";font-size:19px;fill:#10213f}
+.fo{font-family:"Times New Roman, serif";font-size:19px;fill:#c9620f}
+</style>
+<rect width="560" height="420" fill="#ffffff"/>
+<line x1="230.0" y1="380.0" x2="230.0" y2="60.0" stroke="#7a8499" stroke-width="1.5" stroke-dasharray="7 5"/>
+<ellipse cx="230" cy="225" rx="120" ry="34" fill="#e8edfb" stroke="#10213f" stroke-width="2.4"/>
+<polyline points="104.4,246.8 109.8,249.3 115.7,251.8 122.2,254.1 129.3,256.3 136.8,258.3 144.8,260.2 153.2,261.9 161.9,263.4 171.0,264.7 180.4,265.9 190.0,266.8 199.9,267.5 209.8,268.1 219.9,268.4 230.0,268.5 240.1,268.4 250.2,268.1 260.1,267.5 270.0,266.8 279.6,265.9 289.0,264.7 298.1,263.4 306.8,261.9 315.2,260.2 323.2,258.3 330.7,256.3 337.8,254.1 344.3,251.8 350.2,249.3 355.6,246.8" stroke="#c9620f" fill="none" stroke-width="2.4" marker-end="url(#ao)"/>
+<text x="370.0" y="285.0" class="so" text-anchor="start">ω</text>
+<line x1="230.0" y1="225.0" x2="230.0" y2="70.0" stroke="#2348d0" stroke-width="3.2" marker-end="url(#ab)"/>
+<text x="242.0" y="88.0" class="sb" text-anchor="start">L = Iω</text>
+<circle cx="230.0" cy="225.0" r="5.0" stroke="#10213f" fill="#10213f" stroke-width="2"/>
+<line x1="216.0" y1="231.0" x2="216.0" y2="345.0" stroke="#10213f" stroke-width="2.4" marker-end="url(#ak)"/>
+<text x="174.0" y="345.0" class="s" text-anchor="start">mg</text>
+<line x1="244.0" y1="375.0" x2="244.0" y2="235.0" stroke="#10213f" stroke-width="2.4" marker-end="url(#ak)"/>
+<text x="252.0" y="365.0" class="s" text-anchor="start">N</text>
+<text x="242.0" y="217.0" class="s" text-anchor="start">C</text>
+<text x="400.0" y="170.0" class="f" text-anchor="start">M = 0</text>
+<text x="400.0" y="205.0" class="f" text-anchor="start">dL/dt = 0</text>
+<text x="400.0" y="240.0" class="fo" text-anchor="start">L = const</text>
+</svg>

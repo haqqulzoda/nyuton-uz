@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8499"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#10213f" stroke-width="1.2"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text, Segoe UI, sans-serif";font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#10213f}
+.sb{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#2348d0}
+.so{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#c9620f}
+.f{font-family:"Times New Roman, serif";font-size:19px;fill:#10213f}
+.fo{font-family:"Times New Roman, serif";font-size:19px;fill:#c9620f}
+</style>
+<rect width="560" height="420" fill="#ffffff"/>
+<line x1="30.0" y1="260.0" x2="260.0" y2="260.0" stroke="#10213f" stroke-width="2.4"/>
+<line x1="35.0" y1="260.0" x2="25.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="54.0" y1="260.0" x2="44.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="73.0" y1="260.0" x2="63.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="92.0" y1="260.0" x2="82.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="111.0" y1="260.0" x2="101.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="130.0" y1="260.0" x2="120.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="149.0" y1="260.0" x2="139.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="168.0" y1="260.0" x2="158.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="187.0" y1="260.0" x2="177.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="206.0" y1="260.0" x2="196.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="225.0" y1="260.0" x2="215.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="244.0" y1="260.0" x2="234.0" y2="272.0" stroke="#10213f" stroke-width="1.2"/>
+<rect x="100" y="200" width="70" height="60" fill="#e8edfb" stroke="#10213f" stroke-width="2.2"/>
+<text x="135.0" y="237.0" class="s" text-anchor="middle">m<tspan font-size="14" dy="5" font-style="normal">in</tspan><tspan dy="-5"> </tspan></text>
+<line x1="170.0" y1="230.0" x2="245.0" y2="230.0" stroke="#2348d0" stroke-width="3" marker-end="url(#ab)"/>
+<text x="205.0" y="218.0" class="sb" text-anchor="start">F</text>
+<line x1="110.0" y1="170.0" x2="175.0" y2="170.0" stroke="#c9620f" stroke-width="2.6" marker-end="url(#ao)"/>
+<text x="140.0" y="160.0" class="so" text-anchor="start">a</text>
+<text x="140.0" y="330.0" class="f" text-anchor="middle">F = m<tspan font-size="14" dy="5">in</tspan><tspan dy="-5"> a</tspan></text>
+<line x1="280.0" y1="40.0" x2="280.0" y2="380.0" stroke="#7a8499" stroke-width="1" stroke-dasharray="3 5"/>
+<polyline points="567.8,343.8 564.7,341.3 561.6,338.8 558.4,336.3 555.2,333.9 551.9,331.6 548.6,329.3 545.3,327.1 541.9,324.9 538.5,322.9 535.0,320.8 531.5,318.8 528.0,316.9 524.4,315.1 520.8,313.3 517.2,311.5 513.5,309.9 509.9,308.3 506.2,306.7 502.4,305.3 498.7,303.9 494.9,302.5 491.1,301.3 487.2,300.0 483.4,298.9 479.5,297.8 475.6,296.8 471.7,295.9 467.8,295.0 463.9,294.2 459.9,293.5 456.0,292.8 452.0,292.2 448.0,291.7 444.0,291.3 440.0,290.9 436.0,290.6 432.0,290.3 428.0,290.1 424.0,290.0 420.0,290.0 416.0,290.0 412.0,290.1 408.0,290.3 404.0,290.6 400.0,290.9 396.0,291.3 392.0,291.7 388.0,292.2 384.0,292.8 380.1,293.5 376.1,294.2 372.2,295.0 368.3,295.9 364.4,296.8 360.5,297.8 356.6,298.9 352.8,300.0 348.9,301.3 345.1,302.5 341.3,303.9 337.6,305.3 333.8,306.7 330.1,308.3 326.5,309.9 322.8,311.5 319.2,313.3 315.6,315.1 312.0,316.9 308.5,318.8 305.0,320.8 301.5,322.9 298.1,324.9 294.7,327.1 291.4,329.3 288.1,331.6 284.8,333.9 281.6,336.3 278.4,338.8 275.3,341.3 272.2,343.8" stroke="#10213f" fill="#e8edfb" stroke-width="2.4" stroke-linejoin="round"/>
+<text x="420.0" y="360.0" class="s" text-anchor="middle">M</text>
+<circle cx="420.0" cy="150.0" r="26.0" stroke="#10213f" fill="#fbeee2" stroke-width="2.2"/>
+<text x="420.0" y="156.0" class="s" text-anchor="middle">m<tspan font-size="14" dy="5" font-style="normal">gr</tspan><tspan dy="-5"> </tspan></text>
+<line x1="420.0" y1="178.0" x2="420.0" y2="260.0" stroke="#c9620f" stroke-width="3" marker-end="url(#ao)"/>
+<text x="430.0" y="236.0" class="so" text-anchor="start">F</text>
+<text x="420.0" y="80.0" class="f" text-anchor="middle">F = GM m<tspan font-size="14" dy="5">gr</tspan><tspan dy="-5"> / r²</tspan></text>
+</svg>

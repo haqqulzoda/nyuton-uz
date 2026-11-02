@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<path d="M115,90 L140,60 L165,90 L165,250 L115,250 Z" fill="#e8eefc" stroke="#10213f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M115,215 L95,255 L115,240 Z" fill="#e8eefc" stroke="#10213f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M165,215 L185,255 L165,240 Z" fill="#e8eefc" stroke="#10213f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M122,252 Q128,300 140,330 Q152,300 158,252 Z" fill="#fbeee2" stroke="#c9620f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="200" y1="200" x2="200" y2="70" stroke="#c9620f" stroke-width="4" marker-end="url(#mO)"/>
+<text x="232" y="120" class="s" text-anchor="middle" style="font-size:21px;fill:#c9620f;">μu</text>
+<line x1="80" y1="160" x2="80" y2="260" stroke="#10213f" stroke-width="3" marker-end="url(#mK)"/>
+<text x="48" y="225" class="s" text-anchor="middle" style="font-size:21px;">mg</text>
+<line x1="140" y1="335" x2="140" y2="395" stroke="#c9620f" stroke-width="2.5" marker-end="url(#mO)"/>
+<text x="162" y="390" class="s" text-anchor="middle" style="font-size:21px;fill:#c9620f;">u</text>
+<text x="140" y="170" class="s" text-anchor="middle" style="font-size:19px;">m</text>
+<line x1="310" y1="330" x2="530" y2="330" stroke="#10213f" stroke-width="2" marker-end="url(#mK)"/>
+<line x1="320" y1="340" x2="320" y2="80" stroke="#10213f" stroke-width="2" marker-end="url(#mK)"/>
+<text x="520" y="360" class="s" text-anchor="middle" style="font-size:21px;">t</text>
+<text x="310" y="92" class="s" text-anchor="end" style="font-size:21px;">v</text>
+<path d="M320.0,330.0 L321.8,329.5 L323.6,328.9 L325.4,328.3 L327.2,327.8 L329.0,327.2 L330.8,326.6 L332.6,326.0 L334.4,325.4 L336.2,324.7 L338.0,324.1 L339.8,323.5 L341.6,322.8 L343.4,322.1 L345.2,321.5 L347.0,320.8 L348.8,320.1 L350.6,319.4 L352.4,318.6 L354.2,317.9 L356.0,317.1 L357.8,316.4 L359.6,315.6 L361.4,314.8 L363.2,314.0 L365.0,313.2 L366.8,312.3 L368.6,311.5 L370.4,310.6 L372.2,309.8 L374.0,308.9 L375.8,308.0 L377.6,307.1 L379.4,306.1 L381.2,305.2 L383.0,304.2 L384.8,303.2 L386.6,302.2 L388.4,301.2 L390.2,300.2 L392.0,299.1 L393.8,298.0 L395.6,296.9 L397.4,295.8 L399.2,294.7 L401.0,293.5 L402.8,292.4 L404.6,291.2 L406.4,290.0 L408.2,288.7 L410.0,287.5 L411.8,286.2 L413.6,284.9 L415.4,283.6 L417.2,282.2 L419.0,280.8 L420.8,279.4 L422.6,278.0 L424.4,276.5 L426.2,275.1 L428.0,273.5 L429.8,272.0 L431.6,270.4 L433.4,268.8 L435.2,267.2 L437.0,265.5 L438.8,263.8 L440.6,262.1 L442.4,260.3 L444.2,258.5 L446.0,256.7 L447.8,254.8 L449.6,252.9 L451.4,251.0 L453.2,249.0 L455.0,246.9 L456.8,244.8 L458.6,242.7 L460.4,240.5 L462.2,238.3 L464.0,236.0 L465.8,233.7 L467.6,231.3 L469.4,228.9 L471.2,226.4 L473.0,223.8 L474.8,221.2 L476.6,218.5 L478.4,215.8 L480.2,213.0 L482.0,210.1 L483.8,207.1 L485.6,204.1 L487.4,201.0 L489.2,197.8 L491.0,194.5 L492.8,191.1 L494.6,187.6 L496.4,184.0 L498.2,180.3 L500.0,176.5" fill="none" stroke="#2348d0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<text x="430" y="395" class="s" text-anchor="middle" style="font-size:19px;">m(t) = m<tspan baseline-shift="sub" font-size="14">0</tspan> − μt</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<line x1="40" y1="250" x2="530" y2="250" stroke="#9aa6bd" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="60" cy="250" r="14" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<circle cx="140" cy="250" r="14" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<circle cx="220" cy="250" r="14" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<line x1="74" y1="250" x2="120" y2="250" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)"/>
+<text x="100" y="236" class="s" text-anchor="middle" style="font-size:19px;fill:#2348d0;">V<tspan baseline-shift="sub" font-size="14">0</tspan></text>
+<text x="60" y="285" class="s" text-anchor="middle" style="font-size:19px;">R<tspan baseline-shift="sub" font-size="14">0</tspan></text>
+<path d="M245,250 l10,-22 l8,16 l14,-14 l2,20 l18,2 l-14,12 l10,18 l-20,-6 l-6,20 l-8,-18 l-18,8 l6,-18 l-16,-10 z" fill="#fbeee2" stroke="#c9620f" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="262" y1="250" x2="330" y2="150" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="3 4"/>
+<circle cx="330" cy="150" r="16" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<line x1="262" y1="250" x2="340" y2="330" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="3 4"/>
+<circle cx="340" cy="330" r="12" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<line x1="262" y1="250" x2="430" y2="230" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="3 4"/>
+<circle cx="430" cy="230" r="10" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<line x1="346" y1="140" x2="390" y2="112" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)"/>
+<line x1="352" y1="340" x2="400" y2="372" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)"/>
+<line x1="440" y1="228" x2="500" y2="220" stroke="#2348d0" stroke-width="3" marker-end="url(#mB)"/>
+<circle cx="300" cy="250" r="6" fill="#c9620f" stroke="#c9620f" stroke-width="2"/>
+<circle cx="380" cy="250" r="6" fill="#c9620f" stroke="#c9620f" stroke-width="2"/>
+<circle cx="460" cy="250" r="6" fill="#c9620f" stroke="#c9620f" stroke-width="2"/>
+<text x="460" y="285" class="s" text-anchor="middle" style="font-size:21px;fill:#c9620f;">C</text>
+<text x="280" y="50" class="s" text-anchor="middle" style="font-size:21px;fill:#10213f;">M d<tspan baseline-shift="super" font-size="14">2</tspan>R/dt<tspan baseline-shift="super" font-size="14">2</tspan> = 0</text>
+</svg>

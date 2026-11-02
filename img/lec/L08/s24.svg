@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<line x1="30" y1="360" x2="250" y2="360" stroke="#10213f" stroke-width="2"/>
+<path d="M40,120 Q120,330 250,350" fill="none" stroke="#10213f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="62" cy="136" r="12" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<text x="62" y="114" class="n" text-anchor="middle" style="font-size:18px;">1</text>
+<circle cx="125" cy="271" r="12" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<text x="125" y="249" class="n" text-anchor="middle" style="font-size:18px;">2</text>
+<circle cx="250" cy="334" r="12" fill="#e8eefc" stroke="#10213f" stroke-width="2"/>
+<text x="250" y="314" class="n" text-anchor="middle" style="font-size:18px;">3</text>
+<rect x="300" y="110" width="50" height="250" rx="0" fill="#e8eefc" stroke="#2348d0" stroke-width="2" />
+<text x="325" y="386" class="n" text-anchor="middle" style="font-size:18px;">1</text>
+<rect x="380" y="235" width="50" height="125" rx="0" fill="#e8eefc" stroke="#2348d0" stroke-width="2" />
+<rect x="380" y="140" width="50" height="95" rx="0" fill="#fbeee2" stroke="#c9620f" stroke-width="2" />
+<rect x="380" y="110" width="50" height="30" rx="0" fill="url(#hatch)" stroke="#10213f" stroke-width="2" />
+<text x="405" y="386" class="n" text-anchor="middle" style="font-size:18px;">2</text>
+<rect x="460" y="180" width="50" height="180" rx="0" fill="#fbeee2" stroke="#c9620f" stroke-width="2" />
+<rect x="460" y="110" width="50" height="70" rx="0" fill="url(#hatch)" stroke="#10213f" stroke-width="2" />
+<text x="485" y="386" class="n" text-anchor="middle" style="font-size:18px;">3</text>
+<line x1="290" y1="110" x2="540" y2="110" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="325" y="245" class="s" text-anchor="middle" style="font-size:19px;fill:#2348d0;">E<tspan baseline-shift="sub" font-size="14">p</tspan></text>
+<text x="485" y="280" class="s" text-anchor="middle" style="font-size:19px;fill:#c9620f;">E<tspan baseline-shift="sub" font-size="14">k</tspan></text>
+<text x="527" y="152" class="s" text-anchor="middle" style="font-size:19px;">Q</text>
+<text x="140" y="405" class="s" text-anchor="middle" style="font-size:19px;">E<tspan baseline-shift="sub" font-size="14">p</tspan> + E<tspan baseline-shift="sub" font-size="14">k</tspan> + Q = const</text>
+</svg>

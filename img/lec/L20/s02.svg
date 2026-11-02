@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="Golos Text, Segoe UI, sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker><marker id="a-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker><marker id="a-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a6"/></marker></defs>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<rect x="30.0" y="110.0" width="230.0" height="200.0" rx="0" stroke="none" stroke-width="0" fill="#dbe4fb"/>
+<line x1="30.0" y1="110.0" x2="260.0" y2="110.0" stroke="#10213f" stroke-width="3"/>
+<line x1="30.0" y1="310.0" x2="260.0" y2="310.0" stroke="#10213f" stroke-width="3"/>
+<line x1="60.0" y1="122.0" x2="210.0" y2="122.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="60.0" y1="144.5" x2="210.0" y2="144.5" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="60.0" y1="167.0" x2="210.0" y2="167.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="60.0" y1="189.5" x2="210.0" y2="189.5" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="60.0" y1="212.0" x2="210.0" y2="212.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="60.0" y1="234.5" x2="210.0" y2="234.5" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="60.0" y1="257.0" x2="210.0" y2="257.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="60.0" y1="279.5" x2="210.0" y2="279.5" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="60.0" y1="302.0" x2="210.0" y2="302.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="60.0" y1="112.0" x2="60.0" y2="308.0" stroke="#8a94a6" stroke-width="1.4" stroke-dasharray="4 4"/>
+<line x1="210.0" y1="110.0" x2="210.0" y2="310.0" stroke="#c9620f" stroke-width="2.4"/>
+<rect x="300.0" y="110.0" width="230.0" height="200.0" rx="0" stroke="none" stroke-width="0" fill="#dbe4fb"/>
+<line x1="300.0" y1="110.0" x2="530.0" y2="110.0" stroke="#10213f" stroke-width="3"/>
+<line x1="300.0" y1="310.0" x2="530.0" y2="310.0" stroke="#10213f" stroke-width="3"/>
+<line x1="330.0" y1="122.0" x2="367.8" y2="122.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="330.0" y1="144.5" x2="419.6" y2="144.5" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="330.0" y1="167.0" x2="456.3" y2="167.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="330.0" y1="189.5" x2="477.7" y2="189.5" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="330.0" y1="212.0" x2="483.9" y2="212.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="330.0" y1="234.5" x2="475.0" y2="234.5" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="330.0" y1="257.0" x2="450.9" y2="257.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="330.0" y1="279.5" x2="411.5" y2="279.5" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="330.0" y1="302.0" x2="357.0" y2="302.0" stroke="#2348d0" stroke-width="2.2" marker-end="url(#a-acc)"/>
+<line x1="330.0" y1="112.0" x2="330.0" y2="308.0" stroke="#8a94a6" stroke-width="1.4" stroke-dasharray="4 4"/>
+<path d="M330.0,110.0 L341.8,114.0 L353.0,118.0 L363.8,122.0 L374.2,126.0 L384.0,130.0 L393.4,134.0 L402.2,138.0 L410.6,142.0 L418.6,146.0 L426.0,150.0 L433.0,154.0 L439.4,158.0 L445.4,162.0 L451.0,166.0 L456.0,170.0 L460.6,174.0 L464.6,178.0 L468.2,182.0 L471.4,186.0 L474.0,190.0 L476.2,194.0 L477.8,198.0 L479.0,202.0 L479.8,206.0 L480.0,210.0 L479.8,214.0 L479.0,218.0 L477.8,222.0 L476.2,226.0 L474.0,230.0 L471.4,234.0 L468.2,238.0 L464.6,242.0 L460.6,246.0 L456.0,250.0 L451.0,254.0 L445.4,258.0 L439.4,262.0 L433.0,266.0 L426.0,270.0 L418.6,274.0 L410.6,278.0 L402.2,282.0 L393.4,286.0 L384.0,290.0 L374.2,294.0 L363.8,298.0 L353.0,302.0 L341.8,306.0 L330.0,310.0" stroke="#c9620f" stroke-width="2.4" fill="none" stroke-linejoin="round"/>
+<text x="145.0" y="80.0" font-family="Times New Roman, serif" font-style="italic" font-size="24" fill="#c9620f" text-anchor="middle" font-weight="normal">η = 0</text>
+<text x="415.0" y="80.0" font-family="Times New Roman, serif" font-style="italic" font-size="24" fill="#c9620f" text-anchor="middle" font-weight="normal">η ≠ 0</text>
+<text x="145.0" y="360.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#10213f" text-anchor="middle" font-weight="normal">v = const</text>
+<text x="415.0" y="360.0" font-family="Times New Roman, serif" font-style="italic" font-size="22" fill="#10213f" text-anchor="middle" font-weight="normal">v = v(r)</text>
+
+</svg>

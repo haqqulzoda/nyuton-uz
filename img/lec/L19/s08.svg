@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420" font-family="Golos Text, Segoe UI, sans-serif">
+<defs><marker id="a-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker><marker id="a-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker><marker id="a-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker><marker id="a-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a6"/></marker></defs>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<rect x="120.0" y="230.0" width="320.0" height="130.0" rx="0" stroke="none" stroke-width="0" fill="#dbe4fb"/>
+<path d="M 120,90 L 120,360 L 440,360 L 440,90" stroke="#10213f" stroke-width="3" fill="none" />
+<line x1="120.0" y1="230.0" x2="440.0" y2="230.0" stroke="#2348d0" stroke-width="2"/>
+<circle cx="136.6" cy="256.5" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="248.5" cy="314.8" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="173.8" cy="256.5" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="201.1" cy="322.3" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="176.3" cy="320.5" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="327.7" cy="258.9" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="290.5" cy="290.7" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="254.3" cy="346.6" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="409.3" cy="286.1" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="191.4" cy="278.7" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="413.4" cy="330.5" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="237.5" cy="265.8" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="378.9" cy="345.9" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="141.9" cy="320.0" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="388.3" cy="311.4" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="347.6" cy="264.8" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="145.2" cy="279.3" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="231.3" cy="285.4" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="323.1" cy="330.3" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="316.4" cy="300.7" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="189.7" cy="338.9" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="424.5" cy="265.1" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="266.7" cy="326.7" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="298.1" cy="257.0" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="162.1" cy="345.3" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="336.7" cy="344.3" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="358.1" cy="345.5" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="235.5" cy="246.1" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="374.3" cy="275.5" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="337.3" cy="298.5" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="287.1" cy="318.1" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="270.3" cy="258.6" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="167.9" cy="288.3" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="396.2" cy="271.4" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<circle cx="170.0" cy="170.0" r="7.0" stroke="#c9620f" stroke-width="1.5" fill="#c9620f"/>
+<line x1="168.5" y1="158.0" x2="160.0" y2="115.0" stroke="#c9620f" stroke-width="2.5" marker-end="url(#a-hi)"/>
+<circle cx="260.0" cy="140.0" r="7.0" stroke="#c9620f" stroke-width="1.5" fill="#c9620f"/>
+<line x1="261.2" y1="128.0" x2="268.0" y2="80.0" stroke="#c9620f" stroke-width="2.5" marker-end="url(#a-hi)"/>
+<circle cx="360.0" cy="175.0" r="7.0" stroke="#c9620f" stroke-width="1.5" fill="#c9620f"/>
+<line x1="362.7" y1="163.0" x2="378.0" y2="125.0" stroke="#c9620f" stroke-width="2.5" marker-end="url(#a-hi)"/>
+<circle cx="215.0" cy="105.0" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<line x1="215.0" y1="117.0" x2="221.0" y2="167.0" stroke="#2348d0" stroke-width="2.5" marker-end="url(#a-acc)"/>
+<circle cx="400.0" cy="120.0" r="7.0" stroke="#2348d0" stroke-width="1.5" fill="#2348d0"/>
+<line x1="400.0" y1="132.0" x2="392.0" y2="187.0" stroke="#2348d0" stroke-width="2.5" marker-end="url(#a-acc)"/>
+<text x="500.0" y="120.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#c9620f" text-anchor="middle" font-weight="normal">+rm</text>
+<text x="500.0" y="170.0" font-family="Times New Roman, serif" font-style="italic" font-size="20" fill="#2348d0" text-anchor="middle" font-weight="normal">−rm</text>
+<line x1="470.0" y1="155.0" x2="470.0" y2="95.0" stroke="#c9620f" stroke-width="2.5" marker-end="url(#a-hi)"/>
+<line x1="530.0" y1="135.0" x2="530.0" y2="195.0" stroke="#2348d0" stroke-width="2.5" marker-end="url(#a-acc)"/>
+<text x="280.0" y="400.0" font-size="16" fill="#10213f" text-anchor="middle" font-weight="normal">H<tspan dy='5' font-size='72%'>2</tspan><tspan dy='-5'>O:  100 °C,  r ≈ 2260 kJ/kg</tspan></text>
+
+</svg>

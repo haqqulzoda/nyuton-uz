@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8499"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#10213f" stroke-width="1.2"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text, Segoe UI, sans-serif";font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#10213f}
+.sb{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#2348d0}
+.so{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#c9620f}
+.f{font-family:"Times New Roman, serif";font-size:19px;fill:#10213f}
+.fo{font-family:"Times New Roman, serif";font-size:19px;fill:#c9620f}
+</style>
+<rect width="560" height="420" fill="#ffffff"/>
+<line x1="165.0" y1="250.0" x2="395.0" y2="250.0" stroke="#7a8499" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="167.5" y1="273.9" x2="392.5" y2="226.1" stroke="#10213f" stroke-width="4"/>
+<circle cx="392.5" cy="226.1" r="11.0" stroke="#10213f" fill="#fbeee2" stroke-width="2"/>
+<circle cx="167.5" cy="273.9" r="11.0" stroke="#10213f" fill="#fbeee2" stroke-width="2"/>
+<text x="406.5" y="254.1" class="s" text-anchor="start">m</text>
+<text x="135.5" y="301.9" class="s" text-anchor="start">m</text>
+<circle cx="396.5" cy="146.1" r="32.0" stroke="#10213f" fill="#e8edfb" stroke-width="2.4"/>
+<circle cx="163.5" cy="353.9" r="32.0" stroke="#10213f" fill="#e8edfb" stroke-width="2.4"/>
+<text x="434.5" y="152.1" class="s" text-anchor="start">M</text>
+<text x="103.5" y="359.9" class="s" text-anchor="start">M</text>
+<line x1="393.5" y1="213.1" x2="395.5" y2="182.1" stroke="#c9620f" stroke-width="2.6" marker-end="url(#ao)"/>
+<line x1="166.5" y1="286.9" x2="164.5" y2="317.9" stroke="#c9620f" stroke-width="2.6" marker-end="url(#ao)"/>
+<text x="368.5" y="200.1" class="so" text-anchor="start">F</text>
+<text x="177.5" y="309.9" class="so" text-anchor="start">F</text>
+<polyline points="350.0,250.0 350.0,249.5 350.0,249.0 350.0,248.5 350.0,248.0 350.0,247.6 349.9,247.1 349.9,246.6 349.9,246.1 349.9,245.6 349.8,245.1 349.8,244.6 349.8,244.1 349.7,243.7 349.7,243.2 349.6,242.7 349.6,242.2 349.5,241.7 349.4,241.2 349.4,240.7 349.3,240.3 349.2,239.8 349.2,239.3 349.1,238.8 349.0,238.3 348.9,237.8 348.9,237.4 348.8,236.9 348.7,236.4 348.6,235.9 348.5,235.4" stroke="#10213f" fill="none" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="354.0" y="248.0" class="s" text-anchor="start">φ</text>
+<rect x="266" y="246" width="28" height="8" fill="#2348d0" transform="rotate(-12 280 250)"/>
+<circle cx="280.0" cy="250.0" r="3.0" stroke="#fff" fill="#fff" stroke-width="2"/>
+<line x1="60.0" y1="120.0" x2="274.0" y2="246.0" stroke="#2348d0" stroke-width="1.8" marker-end="url(#ab)"/>
+<line x1="280.0" y1="250.0" x2="450.0" y2="62.0" stroke="#2348d0" stroke-width="1.6" stroke-dasharray="5 4"/>
+<line x1="280.0" y1="250.0" x2="528.0" y2="64.0" stroke="#2348d0" stroke-width="1.8" marker-end="url(#ab)"/>
+<line x1="380.0" y1="60.0" x2="545.0" y2="60.0" stroke="#10213f" stroke-width="3"/>
+<line x1="385.0" y1="52.0" x2="385.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="399.0" y1="52.0" x2="399.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="413.0" y1="52.0" x2="413.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="427.0" y1="52.0" x2="427.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="441.0" y1="52.0" x2="441.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="455.0" y1="52.0" x2="455.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="469.0" y1="52.0" x2="469.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="483.0" y1="52.0" x2="483.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="497.0" y1="52.0" x2="497.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="511.0" y1="52.0" x2="511.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="525.0" y1="52.0" x2="525.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<line x1="539.0" y1="52.0" x2="539.0" y2="60.0" stroke="#10213f" stroke-width="1.2"/>
+<text x="40.0" y="112.0" class="s" text-anchor="start">S</text>
+<text x="492.0" y="112.0" class="sb" text-anchor="start">2φ</text>
+<text x="30.0" y="400.0" class="f" text-anchor="start">G l M m / r² = Dφ ,   D = 4π²I / T²</text>
+</svg>

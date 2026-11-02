@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="mB" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="mO" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="mK" viewBox="0 0 12 10" refX="11" refY="5" markerWidth="12" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L12,5 L0,10 z" fill="#10213f"/></marker>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#10213f" stroke-width="1.4"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text","Segoe UI",sans-serif;font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman",serif;font-style:italic;font-size:21px;fill:#10213f}
+.n{font-family:"Times New Roman",serif;font-style:normal;font-size:21px;fill:#10213f}
+</style>
+<rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+<line x1="40" y1="360" x2="530" y2="360" stroke="#10213f" stroke-width="2" marker-end="url(#mK)"/>
+<line x1="50" y1="370" x2="50" y2="40" stroke="#10213f" stroke-width="2" marker-end="url(#mK)"/>
+<text x="520" y="390" class="s" text-anchor="middle" style="font-size:21px;">x</text>
+<text x="40" y="54" class="s" text-anchor="end" style="font-size:21px;">E<tspan baseline-shift="sub" font-size="14">p</tspan></text>
+<path d="M83.0,166.1 L85.1,166.4 L87.2,166.6 L89.3,166.9 L91.4,167.3 L93.6,167.7 L95.7,168.2 L97.8,168.7 L99.9,169.3 L102.0,170.0 L104.1,170.9 L106.2,171.8 L108.3,172.8 L110.5,174.0 L112.6,175.3 L114.7,176.7 L116.8,178.3 L118.9,180.1 L121.0,182.0 L123.1,184.2 L125.2,186.5 L127.4,189.1 L129.5,191.8 L131.6,194.7 L133.7,197.9 L135.8,201.3 L137.9,204.9 L140.0,208.7 L142.1,212.7 L144.2,216.8 L146.4,221.2 L148.5,225.7 L150.6,230.4 L152.7,235.1 L154.8,240.0 L156.9,244.9 L159.0,249.9 L161.1,254.8 L163.3,259.7 L165.4,264.6 L167.5,269.3 L169.6,273.9 L171.7,278.3 L173.8,282.5 L175.9,286.4 L178.0,290.1 L180.2,293.4 L182.3,296.3 L184.4,298.8 L186.5,300.9 L188.6,302.6 L190.7,303.8 L192.8,304.6 L194.9,304.9 L197.0,304.7 L199.2,304.0 L201.3,302.8 L203.4,301.2 L205.5,299.1 L207.6,296.6 L209.7,293.7 L211.8,290.3 L213.9,286.7 L216.1,282.7 L218.2,278.4 L220.3,273.8 L222.4,269.0 L224.5,264.1 L226.6,258.9 L228.7,253.7 L230.8,248.3 L233.0,242.9 L235.1,237.4 L237.2,231.9 L239.3,226.5 L241.4,221.0 L243.5,215.6 L245.6,210.2 L247.7,204.9 L249.8,199.7 L252.0,194.6 L254.1,189.5 L256.2,184.5 L258.3,179.6 L260.4,174.7 L262.5,169.9 L264.6,165.2 L266.7,160.5 L268.9,155.9 L271.0,151.3 L273.1,146.8 L275.2,142.3 L277.3,137.8 L279.4,133.4 L281.5,129.0 L283.6,124.6 L285.8,120.3 L287.9,116.0 L290.0,111.8 L292.1,107.7 L294.2,103.7 L296.3,99.8 L298.4,96.0 L300.5,92.3 L302.6,88.9 L304.8,85.6 L306.9,82.5 L309.0,79.7 L311.1,77.1 L313.2,74.8 L315.3,72.7 L317.4,71.0 L319.5,69.6 L321.7,68.5 L323.8,67.7 L325.9,67.3 L328.0,67.2 L330.1,67.4 L332.2,68.0 L334.3,69.0 L336.4,70.2 L338.6,71.8 L340.7,73.6 L342.8,75.7 L344.9,78.1 L347.0,80.7 L349.1,83.5 L351.2,86.4 L353.3,89.5 L355.4,92.8 L357.6,96.1 L359.7,99.5 L361.8,103.0 L363.9,106.5 L366.0,109.9 L368.1,113.4 L370.2,116.7 L372.3,120.1 L374.5,123.3 L376.6,126.4 L378.7,129.4 L380.8,132.3 L382.9,135.1 L385.0,137.7 L387.1,140.2 L389.2,142.5 L391.4,144.7 L393.5,146.7 L395.6,148.6 L397.7,150.4 L399.8,152.0 L401.9,153.4 L404.0,154.8 L406.1,156.0 L408.2,157.1 L410.4,158.0 L412.5,158.9 L414.6,159.7 L416.7,160.4 L418.8,161.0 L420.9,161.6 L423.0,162.1 L425.1,162.5 L427.3,162.9 L429.4,163.2 L431.5,163.5 L433.6,163.7 L435.7,163.9 L437.8,164.1 L439.9,164.2 L442.0,164.4 L444.2,164.5 L446.3,164.6 L448.4,164.6 L450.5,164.7 L452.6,164.8 L454.7,164.8 L456.8,164.8 L458.9,164.9 L461.0,164.9 L463.2,164.9 L465.3,164.9 L467.4,164.9 L469.5,165.0 L471.6,165.0 L473.7,165.0 L475.8,165.0 L477.9,165.0 L480.1,165.0 L482.2,165.0 L484.3,165.0 L486.4,165.0 L488.5,165.0 L490.6,165.0 L492.7,165.0 L494.8,165.0 L497.0,165.0 L499.1,165.0 L501.2,165.0 L503.3,165.0 L505.4,165.0" fill="none" stroke="#2348d0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="195.2" y1="304.875" x2="195.2" y2="360" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="4 4"/>
+<circle cx="195.2" cy="292.875" r="11" fill="#fbeee2" stroke="#c9620f" stroke-width="2"/>
+<text x="195.2" y="388" class="s" text-anchor="middle" style="font-size:19px;">x<tspan baseline-shift="sub" font-size="14">1</tspan></text>
+<line x1="327.2" y1="67.1782" x2="327.2" y2="360" stroke="#9aa6bd" stroke-width="1.5" stroke-dasharray="4 4"/>
+<circle cx="327.2" cy="55.1782" r="11" fill="#fbeee2" stroke="#c9620f" stroke-width="2"/>
+<text x="327.2" y="388" class="s" text-anchor="middle" style="font-size:19px;">x<tspan baseline-shift="sub" font-size="14">2</tspan></text>
+<line x1="117.1" y1="180.992" x2="165.1" y2="180.992" stroke="#c9620f" stroke-width="3" marker-end="url(#mO)"/>
+<line x1="279.9" y1="154.505" x2="231.9" y2="154.505" stroke="#c9620f" stroke-width="3" marker-end="url(#mO)"/>
+<line x1="371.2" y1="120.49" x2="419.2" y2="120.49" stroke="#c9620f" stroke-width="3" marker-end="url(#mO)"/>
+<text x="135.1" y="166.992" class="s" text-anchor="middle" style="font-size:19px;fill:#c9620f;">F</text>
+<text x="440" y="290" class="s" text-anchor="middle" style="font-size:21px;fill:#10213f;">F<tspan baseline-shift="sub" font-size="14">x</tspan> = −dE<tspan baseline-shift="sub" font-size="14">p</tspan>/dx</text>
+</svg>

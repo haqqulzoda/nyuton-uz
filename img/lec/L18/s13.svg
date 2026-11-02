@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+<defs>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#10213f"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2348d0"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c9620f"/></marker>
+<marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8499"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#10213f" stroke-width="1.2"/></pattern>
+</defs>
+<style>
+.t{font-family:"Golos Text, Segoe UI, sans-serif";font-size:16px;fill:#10213f}
+.s{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#10213f}
+.sb{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#2348d0}
+.so{font-family:"Times New Roman, serif";font-style:italic;font-size:20px;fill:#c9620f}
+.f{font-family:"Times New Roman, serif";font-size:19px;fill:#10213f}
+.fo{font-family:"Times New Roman, serif";font-size:19px;fill:#c9620f}
+</style>
+<rect width="560" height="420" fill="#ffffff"/>
+<circle cx="60.0" cy="230.0" r="22.0" stroke="#c9620f" fill="#ffd27a" stroke-width="2"/>
+<line x1="85.0" y1="230.0" x2="91.0" y2="230.0" stroke="#c9620f" stroke-width="2"/>
+<line x1="77.7" y1="247.7" x2="81.9" y2="251.9" stroke="#c9620f" stroke-width="2"/>
+<line x1="60.0" y1="255.0" x2="60.0" y2="261.0" stroke="#c9620f" stroke-width="2"/>
+<line x1="42.3" y1="247.7" x2="38.1" y2="251.9" stroke="#c9620f" stroke-width="2"/>
+<line x1="35.0" y1="230.0" x2="29.0" y2="230.0" stroke="#c9620f" stroke-width="2"/>
+<line x1="42.3" y1="212.3" x2="38.1" y2="208.1" stroke="#c9620f" stroke-width="2"/>
+<line x1="60.0" y1="205.0" x2="60.0" y2="199.0" stroke="#c9620f" stroke-width="2"/>
+<line x1="77.7" y1="212.3" x2="81.9" y2="208.1" stroke="#c9620f" stroke-width="2"/>
+<polyline points="281.2,384.9 283.8,381.0 286.4,377.1 289.0,373.1 291.4,369.1 293.8,365.0 296.1,360.9 298.4,356.8 300.6,352.6 302.7,348.4 304.7,344.1 306.7,339.8 308.5,335.5 310.3,331.1 312.1,326.8 313.7,322.3 315.3,317.9 316.8,313.4 318.2,308.9 319.5,304.4 320.8,299.9 322.0,295.3 323.1,290.7 324.1,286.1 325.0,281.5 325.9,276.9 326.7,272.2 327.4,267.6 328.0,262.9 328.5,258.2 329.0,253.5 329.3,248.8 329.6,244.1 329.8,239.4 330.0,234.7 330.0,230.0 330.0,225.3 329.8,220.6 329.6,215.9 329.3,211.2 329.0,206.5 328.5,201.8 328.0,197.1 327.4,192.4 326.7,187.8 325.9,183.1 325.0,178.5 324.1,173.9 323.1,169.3 322.0,164.7 320.8,160.1 319.5,155.6 318.2,151.1 316.8,146.6 315.3,142.1 313.7,137.7 312.1,133.2 310.3,128.9 308.5,124.5 306.7,120.2 304.7,115.9 302.7,111.6 300.6,107.4 298.4,103.2 296.1,99.1 293.8,95.0 291.4,90.9 289.0,86.9 286.4,82.9 283.8,79.0 281.2,75.1" stroke="#7a8499" fill="none" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<circle cx="330.0" cy="230.0" r="12.0" stroke="#10213f" fill="#2348d0" stroke-width="1.5"/>
+<line x1="330.0" y1="216.0" x2="330.0" y2="100.0" stroke="#2348d0" stroke-width="3.2" marker-end="url(#ab)"/>
+<text x="282.0" y="160.0" class="sb" text-anchor="start">v<tspan font-size="14" dy="5" font-style="normal">E</tspan><tspan dy="-5"> </tspan></text>
+<line x1="334.0" y1="100.0" x2="334.0" y2="45.0" stroke="#c9620f" stroke-width="3.2" marker-end="url(#ao)"/>
+<text x="344.0" y="70.0" class="so" text-anchor="start">Δv</text>
+<line x1="60.0" y1="230.0" x2="330.0" y2="230.0" stroke="#10213f" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="195.0" y="254.0" class="s" text-anchor="middle">r</text>
+<text x="395.0" y="120.0" class="f" text-anchor="start">v<tspan font-size="14" dy="5" font-style="normal">E</tspan><tspan dy="-5"> </tspan>≈ 29.8 km/s</text>
+<text x="395.0" y="160.0" class="f" text-anchor="start">√2·v<tspan font-size="14" dy="5" font-style="normal">E</tspan><tspan dy="-5"> </tspan>≈ 42.1 km/s</text>
+<text x="395.0" y="200.0" class="fo" text-anchor="start">Δv ≈ 12.3 km/s</text>
+<text x="395.0" y="260.0" class="f" text-anchor="start">v₃ = √(v₂² + Δv²)</text>
+<text x="395.0" y="300.0" class="fo" text-anchor="start">v₃ ≈ 16.7 km/s</text>
+</svg>
