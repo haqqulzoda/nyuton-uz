@@ -490,7 +490,7 @@ window.MathJax = {
     g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r);
     g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath();
   };
-  /* --- laboratoriya foni: devor gradienti, lampa nuri, muhandislik qog'ozi, xira formulalar --- */
+  /* --- laboratoriya foni: devor gradienti, lampa nuri, xira formulalar (katakchalarsiz) --- */
   const rgbaOf = (hex, a) => {
     const m = String(hex || "").trim().match(/^#?([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
     if (!m) return "rgba(128,128,128," + a + ")";
@@ -516,16 +516,6 @@ window.MathJax = {
       const rg = g.createRadialGradient(cx, cy, 0, cx, cy, r); rg.addColorStop(0, rgbaOf(col, a)); rg.addColorStop(1, rgbaOf(col, 0));
       g.fillStyle = rg; g.fillRect(0, 0, W, H);
     });
-    // muhandislik qog'ozi: mayda 20 px va yirik 100 px chiziqlar
-    g.lineWidth = 1;
-    g.strokeStyle = rgbaOf(C.grid, dk ? 0.55 : 0.75); g.beginPath();
-    for (let gx = 0; gx <= W + .1; gx += 20) { g.moveTo(Math.round(gx) + .5, 0); g.lineTo(Math.round(gx) + .5, H); }
-    for (let gy = 0; gy <= H + .1; gy += 20) { g.moveTo(0, Math.round(gy) + .5); g.lineTo(W, Math.round(gy) + .5); }
-    g.stroke();
-    g.strokeStyle = rgbaOf(C.accent, dk ? 0.14 : 0.10); g.beginPath();
-    for (let gx = 0; gx <= W + .1; gx += 100) { g.moveTo(Math.round(gx) + .5, 0); g.lineTo(Math.round(gx) + .5, H); }
-    for (let gy = 0; gy <= H + .1; gy += 100) { g.moveTo(0, Math.round(gy) + .5); g.lineTo(W, Math.round(gy) + .5); }
-    g.stroke();
     // xira formulalar — doska izlari kabi
     g.fillStyle = rgbaOf(C.accent, dk ? 0.075 : 0.055);
     g.font = APP.font(22, 600, "mono"); g.textBaseline = "middle"; g.textAlign = "center";
