@@ -23440,7 +23440,8 @@ window.SIMS["L15"] = function (ctx) {
     slideOf: { uz: "slayd", en: "slide" },
     noVoiceUz: { uz: "Bu brauzerda o‘zbek ovozi yo‘q, shuning uchun matn boshqa tildagi ovoz bilan o‘qilyapti. To‘g‘ri o‘zbekcha o‘qish uchun saytni Microsoft Edge brauzerida oching — unda tabiiy o‘zbek ovozlari (Madina, Sardor) bor.", en: "" },
     openEdge: { uz: "Edge’da ochish", en: "Open in Edge" },
-    ownVoice: { uz: "🎙 Muallif ovozi: Erkinova Dinora", en: "" },
+    ownVoice: { uz: "🎙 Bu slaydni muallif o‘z ovozi bilan o‘qigan — ▶ Tinglash tugmasini bosing", en: "" },
+    recorded: { uz: "yozib olingan ovoz", en: "recorded voice" },
     noTTS: { uz: "Brauzeringiz ovozli o‘qishni qo‘llamaydi — subtitrni o‘qing.", en: "Your browser has no speech synthesis — please read the captions." },
     tabDesc: { uz: "Tavsif", en: "Overview" }, tabTheory: { uz: "Nazariya", en: "Theory" }, tabProc: { uz: "Bajarish tartibi", en: "Procedure" }, tabQ: { uz: "Nazorat savollari", en: "Questions" },
     aim: { uz: "Ishning maqsadi", en: "Aim" }, equip: { uz: "Kerakli asboblar (real praktikumda)", en: "Equipment (real practicum)" }, virt: { uz: "Virtual qurilma", en: "Virtual apparatus" },
@@ -23931,7 +23932,11 @@ window.SIMS["L15"] = function (ctx) {
       [0.8, 0.9, 1, 1.15, 1.3].forEach((r) => { const o = h("option", { value: r, text: "×" + APP.fmt(r, r === 1 ? 0 : 2).replace(/0$/, "") }); if (r === P.rate) o.selected = true; rs.appendChild(o); });
       rs.addEventListener("change", () => { P.rate = +rs.value; store.set("rate", rs.value); AUD.playbackRate = P.rate; if (P.playing && !(hasAudio() && !P.forceTTS)) { stopSpeech(); speakFrom(Math.max(0, P.si)); } });
       set.appendChild(h("span", { text: T(S.speed) })); set.appendChild(rs);
-      if (TTS.ok && TTS.voices.length) {
+      if (hasAudio()) {
+        const vs = h("select", { id: "p-voice", "aria-label": T(S.voice), disabled: true });
+        vs.appendChild(h("option", { text: "🎙 Erkinova Dinora (" + T(S.recorded) + ")" }));
+        set.appendChild(h("span", { text: T(S.voice) })); set.appendChild(vs);
+      } else if (TTS.ok && TTS.voices.length) {
         const vs = h("select", { id: "p-voice", "aria-label": T(S.voice) });
         const cur = TTS.pick(APP.lang);
         const rel = TTS.voices.filter((v) => { const l = (v.lang || "").toLowerCase(); return APP.lang === "uz" ? /^(uz|tr|kk|ru|en)/.test(l) : /^en/.test(l); });
